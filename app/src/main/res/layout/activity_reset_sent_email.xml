@@ -1,0 +1,89 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.roth.touchline.SearchActivity"
+        android:background="@mipmap/bg">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:background="#fff"
+            android:id="@+id/linearLayout"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton"
+                android:src="@mipmap/nobutton"
+                android:scaleType="fitCenter"
+                android:background="#fff"
+                android:layout_weight=".3"
+                android:padding="5dp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton1"
+                android:src="@mipmap/nobutton"
+                android:scaleType="fitCenter"
+                android:background="#fff"
+                android:layout_weight=".3"
+                android:padding="5dp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton2"
+                android:src="@mipmap/nobutton"
+                android:scaleType="fitCenter"
+                android:background="#fff"
+                android:layout_weight=".3"
+                android:padding="5dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_above="@+id/linearLayout"
+            android:layout_centerHorizontal="true"
+            android:background="#CBC9C9"
+            android:id="@+id/linearLayout2"></LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reset_email"
+            android:id="@+id/textView27"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="#4D4D4F"
+            android:textSize="22dp"
+            android:background="@drawable/white_with_border_red"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

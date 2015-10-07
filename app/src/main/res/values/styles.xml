@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+
+        <item name="drawerArrowStyle">@style/MyDrawerArrowToggle</item>
+        <item name="colorControlActivated">#9c9a9a</item>
+        <item name="actionBarTheme">@style/MyApp.ActionBarTheme</item>
+
+    </style>
+
+    <style name="MyDrawerArrowToggle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">#D1322E</item>
+    </style>
+
+    <style name="MyApp.ActionBarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!-- THIS is where you can color the arrow! -->
+        <item name="colorControlNormal">#D1322E</item>
+    </style>
+
+
+</resources>

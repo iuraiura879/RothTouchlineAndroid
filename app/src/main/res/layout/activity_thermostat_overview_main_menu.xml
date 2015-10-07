@@ -1,0 +1,101 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.roth.touchline.SearchActivity"
+    android:background="@mipmap/bg">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="#fff"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton"
+            android:src="@mipmap/home"
+            android:scaleType="fitCenter"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_weight=".3"
+            android:onClick="onHomePressed"
+            android:padding="5dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton1"
+            android:src="@mipmap/sort"
+            android:scaleType="fitCenter"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="onSortPressed"
+            android:layout_weight=".3"
+            android:padding="5dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton2"
+            android:src="@mipmap/info"
+            android:scaleType="fitCenter"
+            android:onClick="onInfoPressed"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_weight=".3"
+            android:padding="5dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_above="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:background="#CBC9C9"
+        android:id="@+id/linearLayout2"></LinearLayout>
+
+    <com.roth.touchline.TouchInterceptor
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:dividerHeight="20.0sp"
+        android:layout_alignParentEnd="true"
+        android:background="#00ffffff"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:clipToPadding="false"
+        android:divider="#00FFFFFF"
+        android:isScrollContainer="false"
+        android:layout_above="@+id/linearLayout2"
+        />
+
+
+</RelativeLayout>
+
+    <ListView android:id="@+id/left_drawer"
+        android:layout_width="280dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:background="#f6f6f6"
+        android:dividerHeight="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:clipToPadding="false"/>
+</android.support.v4.widget.DrawerLayout>

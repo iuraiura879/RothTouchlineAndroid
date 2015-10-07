@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.roth.touchline" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.roth.touchline.StartActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.roth.touchline.SearchActivity"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name="com.roth.touchline.RegisteControllerActivity"
+            android:label="@string/title_activity_registe_controller" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.roth.touchline.SearchActivity" />
+        </activity>
+        <activity
+            android:name="com.roth.touchline.HelpActivity"
+            android:label="@string/title_activity_help" >
+        </activity>
+        <activity
+            android:name="com.roth.touchline.ControllerOperatingModes"
+            android:label="@string/title_activity_controller_operating_modes" >
+        </activity>
+        <activity
+            android:name="com.roth.touchline.NameController"
+            android:label="@string/title_activity_name_controller" >
+        </activity>
+        <activity
+            android:name="com.roth.touchline.ChangeUserID"
+            android:label="@string/title_activity_change_user_id" >
+        </activity>
+        <activity
+            android:name="com.roth.touchline.UserSetup"
+            android:label="@string/title_activity_user_setup" >
+        </activity>
+        <activity
+            android:name="com.roth.touchline.ChangeThermostatName"
+            android:label="@string/title_activity_change_thermostat_name" >
+        </activity>
+        <activity
+            android:name="com.roth.touchline.ThermostatOverview"
+            android:label="@string/title_activity_thermostat_overview" >
+        </activity>
+
+        <activity
+            android:name="com.roth.touchline.ThermostatOverviewMainMenu"
+            android:label="@string/title_activity_thermostat_overview" >
+        </activity>
+
+        <activity
+            android:name="com.roth.touchline.ThermostatOverviewAdvanced"
+            android:label="@string/title_activity_thermostat_overview_advanced"
+            android:parentActivityName="com.roth.touchline.ThermostatOverview" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.roth.touchline.ThermostatOverview" />
+        </activity>
+        <activity
+            android:name="com.roth.touchline.ControllerInfo"
+            android:label="@string/title_activity_controller_info" >
+        </activity>
+        <activity
+            android:name="com.roth.touchline.UserLogin"
+            android:label="Log in" >
+        </activity>
+        <activity
+            android:name="com.roth.touchline.UserForgotPass"
+            android:label="" >
+        </activity>
+        <activity
+            android:name="com.roth.touchline.ChangeControllerList"
+            android:label="Change Controller list" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.roth.touchline.UserLogin" />
+        </activity>
+        <activity
+            android:name="com.roth.touchline.ChangePassword"
+            android:label="@string/title_activity_change_password" >
+        </activity>
+        <activity
+            android:name="com.roth.touchline.NoWlan"
+            android:label="@string/title_activity_no_wlan" >
+        </activity>
+        <activity
+            android:name="com.roth.touchline.NoInternet"
+            android:label="@string/title_activity_no_internet" >
+        </activity>
+        <activity
+            android:name="com.roth.touchline.WrongPass"
+            android:label="@string/title_activity_wrong_pass" >
+        </activity>
+        <activity
+            android:name="com.roth.touchline.NonExistingUserID"
+            android:label="@string/title_activity_non_existing_user_id" >
+        </activity>
+        <activity
+            android:name="com.roth.touchline.ControllerAlreadyRegistred"
+            android:label="@string/title_activity_controller_already_registred" >
+        </activity>
+        <activity
+            android:name="com.roth.touchline.PasswordSentEmail"
+            android:label="@string/title_activity_password_sent_email" >
+        </activity>
+        <activity
+            android:name="com.roth.touchline.ResetSentEmail"
+            android:label="@string/title_activity_reset_sent_email" >
+        </activity>
+        <activity
+            android:name="com.roth.touchline.EnterResetCode"
+            android:label="@string/title_activity_enter_reset_code" >
+        </activity>
+        <activity
+            android:name="com.roth.touchline.ChangeDefaultPassword"
+            android:label="@string/title_activity_change_default_password" >
+        </activity>
+    </application>
+
+</manifest>

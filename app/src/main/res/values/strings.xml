@@ -1,0 +1,202 @@
+<resources>
+    <string name="app_name">Roth Touchline</string>
+
+    <string name="intro_video"><u>Intro video</u></string>
+    <string name="request_password"><u>Request new password</u></string>
+
+    <string name="title_activity_start">Roth Touchline</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="login_help">"Nullandanime cus, venit volo tempos quia nobis
+acea sum illabor erfero eius accatem experiae
+reped que cum aut volor sum quas et atusdae
+conem. Eveliti ssinulluptae ium alitaepel id essunt
+ut labo volor eius.
+Te di dolor accumquibus quo quossitio eosapere,
+sita doluptae odistibusa alia qui volupta tiatasi
+nvenecto inum etur sit"</string>
+    <string name="title_activity_search">Searching...</string>
+    <string name="title_activity_registe_controller">Register controller</string>
+    <string name="title_activity_help">Help</string>
+
+
+    <string name="help_thermostat">You have the option to name your
+thermostats, e.g er location.\n• The first time you log in to a thermostat,
+there will be a number that is automatically
+assigned by the controller.\n
+By pressing the number you will be
+able to change the name.\n• You set the temperature by pressing
+the up/down arrow at an interval of
+0.5 degrees.\n• You have the option to select one of
+the preset programmes simply by
+pressing the desired programme.\n
+Only when you press "OK" the
+changes will be registered in the controller.</string>
+
+
+      <string name="help_user">When you change user ID all connected
+controllers will be updated at
+once. If there are multiple users on
+the same controller, it means that the
+other users have to change their settings
+at the next log in otherwise they
+do not have access to the controllers.
+If you are no. two user and logs into
+the app, there will be a warning triangle
+next to all previously registered
+controllers. When you press the warning
+triangle, you will be asked to enter
+the new user ID and password,er
+that all controllers with the same user
+ID and password will be displayed.
+You can now select which devices you
+wish to access. Finish with "OK"</string>
+
+
+    <string name="help_triangle">The warning triangle indicates that
+there may be problems with a controller
+or thermostat.\n• Check if there is contact with all
+thermostats. Check if the batteries in
+the thermostat shows the error on the
+communications (link).\n• Check whether there has been a
+change of password or user ID of the
+controller.</string>
+
+
+      <string name="help_password">For security reasons it is not possible
+to change a password without having
+received a reset code.
+When you ask for a reset code, it will
+automatically be send to your email.
+This code must be entered manually.
+Once when you have received and entered
+the reset code, you can create a
+new password. The default password
+is always 1234.
+Note: If there are multiple users on
+the controller, these users have to perform
+an update on their next login.
+Press the warning triangle and enter
+the user ID and new password.</string>
+
+
+    <string name="help_controller">
+
+        To make your app more user friendly,
+you must complete e-mail and username.
+This is mainly used for multiuser
+installations, but also in case you
+change phones.\n• Naming the control unit is only to facilitate
+the overview, especially if you
+have multiple oor heating systems
+on your app. However, you cannot use
+the same name on multiple devices.
+The naming could e.g. be "At home",
+"Home", etc.\n• The graphical overview shows the
+number of control devices that are
+connected to your app. It is not possible
+to make changes from this screen.
+
+    </string>
+
+
+    <string name="help_app">
+
+If you have trouble making contact
+with your Touchline controller it may
+be because:\n• Your controller is not set in "Master"
+mode. Hold the "Master" button on
+the control device for approximately
+10 seconds. See also the manual for
+Touchline on roth-nordic.com.\n• You are not on the same WLAN as
+the controller you want to connect to.
+
+    </string>
+
+
+    <array name="help_menu_items">
+        <item>System settings</item>
+        <item>Controller, operation modes</item>
+        <item>Change controller name</item>
+        <item>Change Controller list</item>
+        <item>Controller info</item>
+        <item>App settings</item>
+        <item>Change user ID</item>
+        <item>Change password</item>
+        <item>User setup</item>
+        <item>Thermostat settings</item>
+        <item>Change Thermostat name</item>
+        <item>Thermostat overview</item>
+        <item>Help</item>
+        <item>Password</item>
+        <item>Controller</item>
+        <item>App</item>
+        <item>User ID</item>
+        <item>Thermostat</item>
+    </array>
+    <string name="title_activity_controller_operating_modes"></string>
+    <string name="title_activity_name_controller">Name controller</string>
+    <string name="title_activity_change_user_id">Change user ID</string>
+    <string name="title_activity_user_setup">User setup</string>
+    <string name="title_activity_change_thermostat_name">Change thermostat name</string>
+    <string name="title_activity_thermostat_overview">Thermostat overview</string>
+    <string name="title_activity_thermostat_overview_advanced"></string>
+
+    <string name="title_activity_controller_info">Controller info</string>
+    <string name="title_activity_user_login">UserLogin</string>
+    <string name="title_activity_change_password">Change password</string>
+    <string name="title_activity_no_wlan">No WLAN</string>
+    <string name="title_activity_no_internet">No Internet</string>
+    <string name="title_activity_non_existing_user_id">Controller</string>
+    <string name="title_activity_controller_already_registred">Controller</string>
+    <string name="title_activity_password_sent_email"></string>
+    <string name="title_activity_reset_sent_email">" "</string>
+    <string name="title_activity_enter_reset_code">" "</string>
+    <string name="title_activity_change_default_password">" "</string>
+    <string name="title_activity_wrong_pass">""</string>
+    <string name="touchline">Touchline</string>
+    <string name="name">Name:</string>
+    <string name="error">Possible causes of error messages.</string>
+    <string name="ok">OK</string>
+    <string name="send_reset_code">Send reset code</string>
+    <string name="help_thermostats">Help Screen for thermostats</string>
+    <string name="help_triangle_top">Help Screen for warning triangle connection error</string>
+    <string name="help_ID">Help Screen for user ID</string>
+    <string name="usid">User ID</string>
+    <string name="email">E-mail:</string>
+    <string name="extra1">Tem volor apelrssuntrum. Non ene, retur.</string>
+    <string name="help_app_top">Help Screen App</string>
+    <string name="help_control">Help Screen control</string>
+    <string name="help_pass">Help Screen for password</string>
+    <string name="new_user">New user</string>
+    <string name="name_unit">Name\nthe unit</string>
+    <string name="controller_registred">Controller is already registered</string>
+    <string name="no_inet">No connection to internet</string>
+    <string name="no_wlan">No WLAN connection \n\n\n Connect to a WLAN before making a new registration</string>
+    <string name="no_uid">User ID does not exist</string>
+    <string name="reset_email">The reset code will be sent to your e-mail.</string>
+    <string name="incorrect_pass">Incorrect password</string>
+    <string name="existing_uid">Existing user</string>
+    <string name="pass_sent_email">The password will be sent to your e-mail.</string>
+    <string name="old_uid">Old user\nID</string>
+    <string name="name_controller">Name\nController</string>
+    <string name="lang">Language</string>
+    <string name="mobile_no">Mobile no.</string>
+    <string name="default_pass">Default\npassword</string>
+    <string name="enter_reset">Enter\nreset code</string>
+    <string name="pass">Password</string>
+    <string name="back">Back</string>
+    <string name="change_mode">Change mode</string>
+    <string name="old_pass">Old\nPassword</string>
+    <string name="help_text">Help text</string>
+    <string name="save_pass">Save password</string>
+    <string name="default_pass_enter">Please enter default password: 1234</string>
+    <string name="new_uid">New user\nID</string>
+    <string name="confirm_pass">Confirm\npassword</string>
+    <string name="extra2">Tem volor apelessuntur non enem reiur</string>
+    <string name="new_pass">New\npassword</string>
+    <string name="remember_pass">Remember password</string>
+    <string name="ready_connect">" - Ready to connect"</string>
+    <string name="loading">Loading. Please wait...</string>
+
+</resources>
