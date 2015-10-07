@@ -2,46 +2,46 @@
 <items version="2" >
 
     <item
+        jar="/Users/iuragutu/Desktop/Repo/RothTouchlineAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/iuragutu/Desktop/Repo/RothTouchlineAndroid/app/build/intermediates/pre-dexed/debug/classes-6f342a1c48c1804cc299d2eba4ed30faf7452523.jar" />
+    </item>
+    <item
         jar="/Users/iuragutu/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/Users/iuragutu/Desktop/Android/RothTouchline/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-8c16c8b4e1711572195e4d253be8691cc1f562c3.jar" />
+        <dex dex="/Users/iuragutu/Desktop/Repo/RothTouchlineAndroid/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-8c16c8b4e1711572195e4d253be8691cc1f562c3.jar" />
     </item>
     <item
-        jar="/Users/iuragutu/Desktop/Android/RothTouchline/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jar="/Users/iuragutu/Desktop/Repo/RothTouchlineAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/Users/iuragutu/Desktop/Android/RothTouchline/app/build/intermediates/pre-dexed/debug/classes-a966019209b56f5312478f1efcc54035181e4604.jar" />
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/iuragutu/Desktop/Repo/RothTouchlineAndroid/app/build/intermediates/pre-dexed/debug/classes-3f3b3364dff1fa20c34e9b124c995956be2497fa.jar" />
+    </item>
+    <item
+        jar="/Users/iuragutu/Desktop/Repo/RothTouchlineAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/iuragutu/Desktop/Repo/RothTouchlineAndroid/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-56679eec2376a8bdd1331f6320a4df308bb33118.jar" />
     </item>
     <item
         jar="/Users/iuragutu/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.9/386a4339ffe52d5d63e80f9bed8d2b1d1a418249/android-async-http-1.4.9.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
-        <dex dex="/Users/iuragutu/Desktop/Android/RothTouchline/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.9-2a46566df01e58a52d6d7b87626e11146eab1567.jar" />
-    </item>
-    <item
-        jar="/Users/iuragutu/Desktop/Android/RothTouchline/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/Users/iuragutu/Desktop/Android/RothTouchline/app/build/intermediates/pre-dexed/debug/classes-33af337ae2b331ee02a0c884fa26d67430e3d56f.jar" />
+        <dex dex="/Users/iuragutu/Desktop/Repo/RothTouchlineAndroid/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.9-2a46566df01e58a52d6d7b87626e11146eab1567.jar" />
     </item>
     <item
         jar="/Users/iuragutu/.gradle/caches/modules-2/files-2.1/cz.msebera.android/httpclient/4.3.6/526a9f794eab830eae4f23a62c572878b3f491ab/httpclient-4.3.6.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
-        <dex dex="/Users/iuragutu/Desktop/Android/RothTouchline/app/build/intermediates/pre-dexed/debug/httpclient-4.3.6-5093da50122756914a9c3cc522dfedf1662e3c6a.jar" />
-    </item>
-    <item
-        jar="/Users/iuragutu/Desktop/Android/RothTouchline/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/Users/iuragutu/Desktop/Android/RothTouchline/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-2e16157c64f35f64ff0662830baef20abde5f22f.jar" />
+        <dex dex="/Users/iuragutu/Desktop/Repo/RothTouchlineAndroid/app/build/intermediates/pre-dexed/debug/httpclient-4.3.6-5093da50122756914a9c3cc522dfedf1662e3c6a.jar" />
     </item>
 
 </items>
