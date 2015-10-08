@@ -14,6 +14,7 @@ import android.view.animation.Animation;
 import android.view.animation.Transformation;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListAdapter;
@@ -56,6 +57,8 @@ public class ThermostatOverviewMainMenu extends AppCompatActivity {
             controller = user.findControllerByID(ID);
 
             setTitle(controller.getName());
+
+
         }
 
         helpMenuList = getResources().getStringArray(R.array.help_menu_items);
@@ -194,6 +197,13 @@ public class ThermostatOverviewMainMenu extends AppCompatActivity {
         controller = user.findControllerByID(ID);
 
         setTitle(controller.getName());
+
+        if(controller.getMode() == 3){
+
+            ImageButton b =  (ImageButton) findViewById(R.id.imageButton2);
+            b.setImageResource(R.mipmap.ic_triangle);
+
+        }
 
         Runnable run = new Runnable() {
             public void run() {
@@ -405,6 +415,15 @@ public class ThermostatOverviewMainMenu extends AppCompatActivity {
     }
 
     public void onInfoPressed( View v ){
+
+        if(controller.getMode() == 3){
+
+            Intent intent = new Intent(getApplicationContext(), EnterResetCode.class);
+            intent.putExtra(SearchActivity.CONROLLER_ID_SENT, ( ID ));
+            startActivity(intent);
+            return;
+
+        }
 
         Intent intent = new Intent(this, HelpActivity.class);
         intent.putExtra( HelpActivity.intentChoiceName,  3 );
