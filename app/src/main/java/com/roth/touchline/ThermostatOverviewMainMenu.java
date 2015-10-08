@@ -1,6 +1,7 @@
 package com.roth.touchline;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -261,8 +262,23 @@ public class ThermostatOverviewMainMenu extends AppCompatActivity {
 
                 case 3:
 
-                    intent = new Intent(getApplicationContext(), UserLogin.class);
-                    startActivity(intent);
+
+                    SharedPreferences preferences = getApplicationContext().getSharedPreferences(StartActivity.PREFS, android.content.Context.MODE_PRIVATE);
+                    boolean remember_pass = preferences.getBoolean(StartActivity.REMEMBER_PASS, false);
+
+
+                    if(remember_pass){
+
+                        intent = new Intent(getApplicationContext(), ChangeControllerList.class);
+                        startActivity(intent);
+
+                    }
+                    else {
+
+                        intent = new Intent(getApplicationContext(), UserLogin.class);
+                        startActivity(intent);
+
+                    }
 
                     break;
 

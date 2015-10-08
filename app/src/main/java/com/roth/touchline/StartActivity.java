@@ -3,6 +3,7 @@ package com.roth.touchline;
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBar;
@@ -11,6 +12,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Spinner;
 
@@ -29,6 +31,10 @@ public class StartActivity extends AppCompatActivity {
     int lang = 0;
 
     final static String NO_BACK = "NO_BACK";
+
+    final static String PREFS = "PREFS";
+    final static String REMEMBER_PASS = "REMEMBER_PASS";
+
     private static boolean isFirstTimeShowingIntroSpinner = true;
 
     public static boolean getIsFirstTimeShowingIntroSpinner() {
@@ -43,8 +49,22 @@ public class StartActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        SharedPreferences preferences = getApplicationContext().getSharedPreferences(PREFS, android.content.Context.MODE_PRIVATE);
+        boolean remember_pass = preferences.getBoolean(REMEMBER_PASS, false);
+
+
+        if(remember_pass){
+
+            finish();
+            Intent intent = new Intent(getApplicationContext(), SearchActivity.class);
+            startActivity(intent);
+        }
+
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
+
 
         //Setup ui
         ActionBar actionBar = getSupportActionBar();
@@ -180,6 +200,14 @@ public class StartActivity extends AppCompatActivity {
             user.setUserID(((EditText) findViewById(R.id.editText)).getText().toString());
             user.setLanguage(lang);
 
+            if( ((CheckBox) findViewById(R.id.checkBox)).isChecked() ) {
+
+                SharedPreferences preferences = getApplicationContext().getSharedPreferences(PREFS, android.content.Context.MODE_PRIVATE);
+                SharedPreferences.Editor editor = preferences.edit();
+                editor.putBoolean(REMEMBER_PASS, true);
+                editor.commit();
+            }
+
 
             /// HERE GOES CONTROLL DATA
             Controller temp = new Controller();
@@ -269,7 +297,7 @@ public class StartActivity extends AppCompatActivity {
                     getString(R.string.loading), true);
 
             //mimic html request
-            new Timer().schedule(new afterHtmlReqestExistingUser(), 2000);
+            new Timer().schedule(new afterHtmlReqestExistingUser(), 1000);
 
 
         }
@@ -417,7 +445,7 @@ public class StartActivity extends AppCompatActivity {
                     "Loading. Please wait...", true);
 
             //mimic html request
-            new Timer().schedule(new afterHtmlReqest(), 2000);
+            new Timer().schedule(new afterHtmlReqest(), 1000);
 
 
         }
