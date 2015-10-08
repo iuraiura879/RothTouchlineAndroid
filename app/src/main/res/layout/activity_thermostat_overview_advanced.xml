@@ -192,7 +192,7 @@
         android:id="@+id/linearLayout">
 
         <ImageButton
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:id="@+id/imageButton"
             android:src="@mipmap/home"
@@ -203,7 +203,7 @@
             android:padding="5dp" />
 
         <ImageButton
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:id="@+id/imageButton1"
             android:src="@mipmap/nobutton"
@@ -213,7 +213,7 @@
             android:padding="5dp" />
 
         <ImageButton
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:id="@+id/imageButton2"
             android:src="@mipmap/info"

@@ -92,8 +92,17 @@ public class ThermostatOverviewMainMenu extends AppCompatActivity {
                 TextView textView = ((TextView) v.findViewById(R.id.text1));
                 textView.setText(getItem(position));
 
-                if (position == 0 || position == 5 || position == 9 || position == 12)
+                if (position == 0 || position == 5 || position == 9 || position == 12){
+
+                    int bottom = textView.getPaddingBottom();
+                    int top = textView.getPaddingTop();
+                    int right = textView.getPaddingRight();
+                    int left = textView.getPaddingLeft();
                     textView.setBackgroundResource(R.drawable.bg_listview);
+                    textView.setPadding(left, top, right, bottom);
+
+                }
+
 
                 return v;
             }
@@ -380,7 +389,7 @@ public class ThermostatOverviewMainMenu extends AppCompatActivity {
         sortingEnabled = !sortingEnabled;
         if(sortingEnabled){
 
-            final int newMargin = 100;
+            final int newMargin = (int) (40 * getResources().getDisplayMetrics().density);
             Animation a = new Animation() {
 
                 @Override

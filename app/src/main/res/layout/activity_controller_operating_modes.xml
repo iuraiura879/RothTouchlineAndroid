@@ -15,7 +15,7 @@
         android:id="@+id/linearLayout">
 
         <ImageButton
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:id="@+id/imageButton"
             android:src="@mipmap/home"
@@ -26,7 +26,7 @@
             android:onClick="onHomePressed" />
 
         <ImageButton
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:id="@+id/imageButton1"
             android:src="@mipmap/nobutton"
@@ -36,7 +36,7 @@
             android:padding="5dp" />
 
         <ImageButton
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:id="@+id/imageButton2"
             android:src="@mipmap/info"
@@ -80,8 +80,8 @@
         android:background="@drawable/white_with_border_red"
         android:id="@+id/agg"
         android:padding="20dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp">
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -142,5 +142,6 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
             android:onClick="mode_3_pressed" />
+
     </RelativeLayout>
 </RelativeLayout>

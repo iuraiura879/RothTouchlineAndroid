@@ -139,8 +139,8 @@
         android:layout_marginTop="20dp" />
 
     <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="20dp"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
         android:id="@+id/checkBox"
         android:layout_marginLeft="15dp"
         android:layout_marginStart="28dp"
@@ -148,11 +148,13 @@
         android:layout_toRightOf="@+id/textView3"
         android:layout_toEndOf="@+id/textView3"
         android:layout_alignTop="@+id/textView3"
-        android:button="@drawable/custom_checkbox"
+        android:button="@null"
+        android:background="@drawable/custom_checkbox"
         android:scaleX="0.90"
         android:scaleY="0.90"
         android:gravity="center_vertical|center_horizontal"
-        android:padding="5dp" />
+        android:padding="5dp"
+        android:checked="false" />
 
     <Button
         android:layout_width="wrap_content"

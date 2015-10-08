@@ -39,13 +39,10 @@ public class IntroFragment extends Fragment {
 
             spinner.setAdapter(new CustomSpinnerAdapter(getActivity(), R.layout.spinner_item, arrayForSpinner, defaultTextForSpinner));
             StartActivity.setIsFirstTimeShowingIntroSpinner(false);
-
         }
         else {
 
             spinner.setAdapter(new CustomSpinnerAdapter(getActivity(), R.layout.spinner_item, arrayForSpinner, ""));
-
-
         }
 
         //Set language dropdown and fade animation for buttons
