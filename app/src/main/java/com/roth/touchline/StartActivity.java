@@ -176,7 +176,7 @@ public class StartActivity extends AppCompatActivity {
 
                 editText.setBackgroundDrawable(getResources().getDrawable(R.drawable.bg_picker_red));
             } else {
-                editText.setBackground(getResources().getDrawable(R.drawable.bg_picker_red, getTheme()));
+                editText.setBackground(getResources().getDrawable(R.drawable.bg_picker_red ));
             }
 
             editText.setPadding(  (int) (10 * getResources().getDisplayMetrics().density), (int) (4 * getResources().getDisplayMetrics().density), (int) (10 * getResources().getDisplayMetrics().density), (int) (4 * getResources().getDisplayMetrics().density) );
@@ -196,7 +196,7 @@ public class StartActivity extends AppCompatActivity {
 
                 editText.setBackgroundDrawable(getResources().getDrawable(R.drawable.bg_picker_red));
             } else {
-                editText.setBackground(getResources().getDrawable(R.drawable.bg_picker_red, getTheme()));
+                editText.setBackground(getResources().getDrawable(R.drawable.bg_picker_red ));
             }
 
             editText.setPadding(  (int) (10 * getResources().getDisplayMetrics().density), (int) (4 * getResources().getDisplayMetrics().density), (int) (10 * getResources().getDisplayMetrics().density), (int) (4 * getResources().getDisplayMetrics().density) );
@@ -336,7 +336,7 @@ public class StartActivity extends AppCompatActivity {
 
                 editText.setBackgroundDrawable(getResources().getDrawable(R.drawable.bg_picker_red));
             } else {
-                editText.setBackground(getResources().getDrawable(R.drawable.bg_picker_red, getTheme()));
+                editText.setBackground(getResources().getDrawable(R.drawable.bg_picker_red));
             }
 
             editText.setPadding(  (int) (10 * getResources().getDisplayMetrics().density), (int) (4 * getResources().getDisplayMetrics().density), (int) (10 * getResources().getDisplayMetrics().density), (int) (4 * getResources().getDisplayMetrics().density) );
@@ -357,7 +357,7 @@ public class StartActivity extends AppCompatActivity {
 
                 editText.setBackgroundDrawable(getResources().getDrawable(R.drawable.bg_picker_red));
             } else {
-                editText.setBackground(getResources().getDrawable(R.drawable.bg_picker_red, getTheme()));
+                editText.setBackground(getResources().getDrawable(R.drawable.bg_picker_red ));
             }
 
             editText.setPadding(  (int) (10 * getResources().getDisplayMetrics().density), (int) (4 * getResources().getDisplayMetrics().density), (int) (10 * getResources().getDisplayMetrics().density), (int) (4 * getResources().getDisplayMetrics().density) );
@@ -376,7 +376,7 @@ public class StartActivity extends AppCompatActivity {
 
                 editText.setBackgroundDrawable(getResources().getDrawable(R.drawable.bg_picker_red));
             } else {
-                editText.setBackground(getResources().getDrawable(R.drawable.bg_picker_red, getTheme()));
+                editText.setBackground(getResources().getDrawable(R.drawable.bg_picker_red ));
             }
 
             editText.setPadding(  (int) (10 * getResources().getDisplayMetrics().density), (int) (4 * getResources().getDisplayMetrics().density), (int) (10 * getResources().getDisplayMetrics().density), (int) (4 * getResources().getDisplayMetrics().density) );

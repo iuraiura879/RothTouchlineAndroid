@@ -79,7 +79,7 @@ public class RegisteControllerActivity extends AppCompatActivity {
             if(sdk < android.os.Build.VERSION_CODES.JELLY_BEAN) {
                 editText.setBackgroundDrawable(getResources().getDrawable(R.drawable.bg_picker_red));
             } else {
-                editText.setBackground(getResources().getDrawable(R.drawable.bg_picker_red, getTheme()));
+                editText.setBackground(getResources().getDrawable(R.drawable.bg_picker_red ));
             }
 
             editText.setPadding(  (int) (10 * getResources().getDisplayMetrics().density), (int) (4 * getResources().getDisplayMetrics().density), (int) (10 * getResources().getDisplayMetrics().density), (int) (4 * getResources().getDisplayMetrics().density) );
@@ -99,7 +99,7 @@ public class RegisteControllerActivity extends AppCompatActivity {
             if(sdk < android.os.Build.VERSION_CODES.JELLY_BEAN) {
                 editText.setBackgroundDrawable(getResources().getDrawable(R.drawable.bg_picker_red));
             } else {
-                editText.setBackground(getResources().getDrawable(R.drawable.bg_picker_red, getTheme()));
+                editText.setBackground(getResources().getDrawable(R.drawable.bg_picker_red ));
             }
 
             editText.setPadding(  (int) (10 * getResources().getDisplayMetrics().density), (int) (4 * getResources().getDisplayMetrics().density), (int) (10 * getResources().getDisplayMetrics().density), (int) (4 * getResources().getDisplayMetrics().density) );
@@ -110,7 +110,7 @@ public class RegisteControllerActivity extends AppCompatActivity {
             if(sdk < android.os.Build.VERSION_CODES.JELLY_BEAN) {
                 editText2.setBackgroundDrawable(getResources().getDrawable(R.drawable.bg_picker_red));
             } else {
-                editText2.setBackground(getResources().getDrawable(R.drawable.bg_picker_red, getTheme()));
+                editText2.setBackground(getResources().getDrawable(R.drawable.bg_picker_red ));
             }
 
             editText2.setPadding(  (int) (10 * getResources().getDisplayMetrics().density), (int) (4 * getResources().getDisplayMetrics().density), (int) (10 * getResources().getDisplayMetrics().density), (int) (4 * getResources().getDisplayMetrics().density) );
