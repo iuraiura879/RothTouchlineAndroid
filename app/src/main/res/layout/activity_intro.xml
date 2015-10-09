@@ -31,7 +31,7 @@
         android:scaleType="fitCenter"
         android:layout_toRightOf="@+id/Touchline" />
 
-    <Spinner
+    <com.roth.touchline.NDSpinner
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:id="@+id/spinner"

@@ -33,7 +33,7 @@ public class IntroFragment extends Fragment {
         final Button button = (Button) view.findViewById(R.id.button3);
         button.setPaintFlags(button.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
 
-        final Spinner spinner = (Spinner) view.findViewById(R.id.spinner);
+        final NDSpinner spinner = (NDSpinner) view.findViewById(R.id.spinner);
 
         if( StartActivity.getIsFirstTimeShowingIntroSpinner() ) {
 
