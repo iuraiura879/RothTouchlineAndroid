@@ -26,11 +26,14 @@ public class IntroFragment extends Fragment {
 
     boolean isInitialSetup = true;
     boolean defaultChoise = true;
-
+    boolean coldStart = true;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+
+
 
 
         //Setup UI
@@ -43,7 +46,10 @@ public class IntroFragment extends Fragment {
 
         final NDSpinner spinner = (NDSpinner) view.findViewById(R.id.spinner);
 
-        if( StartActivity.getIsFirstTimeShowingIntroSpinner() ) {
+        SharedPreferences preferences = getContext().getSharedPreferences(StartActivity.PREFS, android.content.Context.MODE_PRIVATE);
+        boolean locale_set = preferences.getBoolean(StartActivity.LOCALE_SET, false);
+
+        if( StartActivity.getIsFirstTimeShowingIntroSpinner() && !locale_set) {
 
             spinner.setAdapter(new CustomSpinnerAdapter(getActivity(), R.layout.spinner_item, NewUserFragment.arrayForSpinner, defaultTextForSpinner));
             StartActivity.setIsFirstTimeShowingIntroSpinner(false);
@@ -54,8 +60,7 @@ public class IntroFragment extends Fragment {
         }
 
 
-        SharedPreferences preferences = getContext().getSharedPreferences(StartActivity.PREFS, android.content.Context.MODE_PRIVATE);
-        boolean locale_set = preferences.getBoolean(StartActivity.LOCALE_SET, false);
+
 
         if(locale_set)
         {
@@ -238,6 +243,7 @@ public class IntroFragment extends Fragment {
                     Intent i = getContext().getPackageManager()
                             .getLaunchIntentForPackage(getContext().getPackageName());
                     i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    i.putExtra(StartActivity.COLD_START, false);
                     startActivity(i);
 
                 }
@@ -262,16 +268,20 @@ public class IntroFragment extends Fragment {
 
 
 
-      /*  // Hide buttons
-        Button button1 = (Button) view.findViewById(R.id.button);
-        Button button2 = (Button) view.findViewById(R.id.button2);
+        if(!locale_set) {
+            // Hide buttons
+            Button button1 = (Button) view.findViewById(R.id.button);
+            Button button2 = (Button) view.findViewById(R.id.button2);
 
-        button1.setAlpha(0.0f);
-        button1.setEnabled(false);
+            button1.setAlpha(0.0f);
+            button1.setEnabled(false);
 
-        button2.setAlpha(0.0f);
-        button2.setEnabled(false);
-    */
+            button2.setAlpha(0.0f);
+            button2.setEnabled(false);
+
+        }
+
+
         return view;
     }
 

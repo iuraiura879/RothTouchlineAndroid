@@ -34,6 +34,9 @@ public class StartActivity extends AppCompatActivity {
 
     int lang = 0;
 
+    boolean coldStart = true;
+    final static String COLD_START = "COLD_START";
+
     final static String NO_BACK = "NO_BACK";
 
     final static String PREFS = "PREFS";
@@ -57,6 +60,8 @@ public class StartActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
+
+        coldStart = getIntent().getBooleanExtra("COLD_START",true);
         //HERE
 
         SharedPreferences preferences = getApplicationContext().getSharedPreferences(PREFS, android.content.Context.MODE_PRIVATE);
@@ -95,6 +100,8 @@ public class StartActivity extends AppCompatActivity {
         FragmentManager fm = getSupportFragmentManager();
         FragmentTransaction ft = fm.beginTransaction();
         IntroFragment fragment =new IntroFragment();
+        fragment.coldStart = true;
+
         ft.add(R.id.fragment_holder, fragment, "IntroFragment");
         ft.commit();
 
