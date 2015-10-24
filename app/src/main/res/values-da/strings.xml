@@ -168,7 +168,7 @@ the controller you want to connect to.
     <string name="help_app_top">Help Screen App</string>
     <string name="help_control">Help Screen control</string>
     <string name="help_pass">Help Screen for password</string>
-    <string name="new_user">New user</string>
+    <string name="new_user">New user123</string>
     <string name="name_unit">Name\nthe unit</string>
     <string name="controller_registred">Controller is already registered</string>
     <string name="no_inet">No connection to internet</string>

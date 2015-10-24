@@ -5,11 +5,13 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.DisplayMetrics;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -36,6 +38,9 @@ public class StartActivity extends AppCompatActivity {
 
     final static String PREFS = "PREFS";
     final static String REMEMBER_PASS = "REMEMBER_PASS";
+    final static String LANGUAGE = "LANGUAGE";
+    final static String LOCALE_SET = "LOCALE_SET";
+
 
     private static boolean isFirstTimeShowingIntroSpinner = true;
 
@@ -52,18 +57,22 @@ public class StartActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
+        //HERE
+
+        SharedPreferences preferences = getApplicationContext().getSharedPreferences(PREFS, android.content.Context.MODE_PRIVATE);
+        boolean remember_pass = preferences.getBoolean(REMEMBER_PASS, false);
+
         //CHANGE LANG
-        String languageToLoad  = "en"; // your language
-        Locale locale = new Locale(languageToLoad);
+        String lang = preferences.getString(LANGUAGE, "en");
+        Locale locale = new Locale(lang);
         Locale.setDefault(locale);
         Configuration config = new Configuration();
         config.locale = locale;
         getBaseContext().getResources().updateConfiguration(config,
                 getBaseContext().getResources().getDisplayMetrics());
-        //HERE
 
-        SharedPreferences preferences = getApplicationContext().getSharedPreferences(PREFS, android.content.Context.MODE_PRIVATE);
-        boolean remember_pass = preferences.getBoolean(REMEMBER_PASS, false);
+
+
 
 
         if(remember_pass){

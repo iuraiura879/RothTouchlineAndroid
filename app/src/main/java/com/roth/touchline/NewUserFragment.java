@@ -13,7 +13,7 @@ import android.widget.Spinner;
 public class NewUserFragment extends Fragment {
 
     final static String defaultTextForSpinner = "Choose language";
-    final static String[] arrayForSpinner = {"DE", "UK", "FR", "ES", "DK", "NO", "SE", "FI"};
+    final static String[] arrayForSpinner = {"EN", "DK", "DE", "FR", "ES", "NO", "SE", "FI", "PL", "PT", "NL"};
     int chosenLanguage = -1;
 
     public NewUserFragment() {

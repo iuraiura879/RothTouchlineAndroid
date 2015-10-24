@@ -2,6 +2,7 @@ package com.roth.touchline;
 
 import android.content.Context;
 import android.util.AttributeSet;
+import android.view.View;
 import android.widget.Spinner;
 
 /** Spinner extension that calls onItemSelected even when the selection is the same as its previous value */
@@ -22,8 +23,11 @@ public class NDSpinner extends Spinner {
         boolean sameSelected = position == getSelectedItemPosition();
         super.setSelection(position, animate);
         if (sameSelected) {
+
+            OnItemSelectedListener v = getOnItemSelectedListener();
             // Spinner does not call the OnItemSelectedListener if the same item is selected, so do it manually now
-            getOnItemSelectedListener().onItemSelected(this, getSelectedView(), position, getSelectedItemId());
+            if( v!= null)
+             getOnItemSelectedListener().onItemSelected(this, getSelectedView(), position, getSelectedItemId());
         }
     }
 
