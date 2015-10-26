@@ -12,9 +12,9 @@ import android.widget.Spinner;
 
 public class NewUserFragment extends Fragment {
 
-    final static String defaultTextForSpinner = "Choose language";
-    final static String[] arrayForSpinner = {"EN", "DK", "DE", "FR", "ES", "NO", "SE", "FI", "PL", "PT", "NL"};
-    int chosenLanguage = -1;
+    //final static String defaultTextForSpinner = "Choose language";
+    //final static String[] arrayForSpinner = {"EN", "DK", "DE", "FR", "ES", "NO", "SE", "FI", "PL", "PT", "NL"};
+    //int chosenLanguage = -1;
 
     public NewUserFragment() {
 
@@ -28,18 +28,8 @@ public class NewUserFragment extends Fragment {
         //Setup UI
         View view = inflater.inflate(R.layout.fragment_new_user, container, false);
 
-        Bundle bundle=getArguments();
-
-        chosenLanguage = bundle.getInt("pos", -1);
-
-        Spinner spinner = (Spinner) view.findViewById(R.id.spinner2);
-        CustomSpinnerAdapter adapter = new CustomSpinnerAdapter(getActivity(), R.layout.spinner_item, arrayForSpinner, defaultTextForSpinner);
-        spinner.setAdapter(adapter);
 
 
-        if( chosenLanguage != -1 ) {
-            spinner.setSelection(chosenLanguage);
-        }
 
         return view;
 

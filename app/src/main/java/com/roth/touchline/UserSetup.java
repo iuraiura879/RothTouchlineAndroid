@@ -17,9 +17,7 @@ public class UserSetup extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_setup);
 
-        Spinner spinner = (Spinner) findViewById(R.id.spinner2);
-        CustomSpinnerAdapter adapter = new CustomSpinnerAdapter(this, R.layout.spinner_item, NewUserFragment.arrayForSpinner, "");
-        spinner.setAdapter(adapter);
+
 
         EditText editText = (EditText) findViewById(R.id.editText3);
 
@@ -29,7 +27,7 @@ public class UserSetup extends AppCompatActivity {
         editText = (EditText) findViewById(R.id.editText4);
         editText.setText(user.getEmail());
 
-        spinner.setSelection(user.getLanguage());
+
 
     }
 

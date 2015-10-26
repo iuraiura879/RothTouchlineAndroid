@@ -77,7 +77,7 @@
         </activity>
         <activity
             android:name="com.roth.touchline.UserLogin"
-            android:label="Log in" >
+            android:label="@string/login" >
         </activity>
         <activity
             android:name="com.roth.touchline.UserForgotPass"
@@ -85,7 +85,7 @@
         </activity>
         <activity
             android:name="com.roth.touchline.ChangeControllerList"
-            android:label="Change Controller list" >
+            android:label="@string/edit_controller_list" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.roth.touchline.UserLogin" />

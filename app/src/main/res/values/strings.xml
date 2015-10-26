@@ -7,118 +7,52 @@
     <string name="title_activity_start">Roth Touchline</string>
     <string name="action_settings">Settings</string>
 
-    <string name="login_help">"Nullandanime cus, venit volo tempos quia nobis
-acea sum illabor erfero eius accatem experiae
-reped que cum aut volor sum quas et atusdae
-conem. Eveliti ssinulluptae ium alitaepel id essunt
-ut labo volor eius.
-Te di dolor accumquibus quo quossitio eosapere,
-sita doluptae odistibusa alia qui volupta tiatasi
-nvenecto inum etur sit"</string>
+    <string name="login_help">"In order to establish contact with your Touchline controlunit, it is important that the following requirements are met:
+> Your controlunit must be set to "Master". The LED on the controlunit must light in "Master", if not press and hold the "Master" button on the controlunit for approximately 10 seconds until the LED stops flashing. For more information see the guide for Touchline on our website (link to your own touchline guidance)
+> You must be in the same WLAN as the controlunit you wish to connect to and your phone must be connected via WLAN."</string>
     <string name="title_activity_search">Searching...</string>
     <string name="title_activity_registe_controller">Register controller</string>
     <string name="title_activity_help">Help</string>
 
 
-    <string name="help_thermostat">You have the option to name your
-thermostats, e.g er location.\n• The first time you log in to a thermostat,
-there will be a number that is automatically
-assigned by the controller.\n
-By pressing the number you will be
-able to change the name.\n• You set the temperature by pressing
-the up/down arrow at an interval of
-0.5 degrees.\n• You have the option to select one of
-the preset programmes simply by
-pressing the desired programme.\n
-Only when you press "OK" the
-changes will be registered in the controller.</string>
+    <string name="help_thermostat">"It is possible to give your thermostats a name, for example after location.
+> The first time you log in to a thermostat, there will be a number that the controller has automatically assigned. By pressing this number it allows you to change the name.
+> Temperature is set by pressing the up / down arrow with an interval of 0.5 degrees.
+> It is possible to select one of the preset programs, simply by pressing the desired program. It is only possible to change the time program on the Touchline thermostat, not by the App.
+You execute by pressing "ok" and the App will send the changes to the controlunit."</string>
 
 
-      <string name="help_user">When you change user ID all connected
-controllers will be updated at
-once. If there are multiple users on
-the same controller, it means that the
-other users have to change their settings
-at the next log in otherwise they
-do not have access to the controllers.
-If you are no. two user and logs into
-the app, there will be a warning triangle
-next to all previously registered
-controllers. When you press the warning
-triangle, you will be asked to enter
-the new user ID and password,er
-that all controllers with the same user
-ID and password will be displayed.
-You can now select which devices you
-wish to access. Finish with "OK"</string>
+      <string name="help_user">Mobile no. / User ID is a code that the portal server uses to identify each controlunit. If you change the user ID it will be changed on the portal server, which means that all controlunits with the same user ID and password will be updated with the new User ID at one time.   You should be aware that a change would lead to that other users on the same control units will lose their access until they have changed the "User ID" to the novelty in the next log-in.
+If the "User ID" has been changed, other users will see a warning triangle on the controlunit as they previously had access to. If they try to login, they will be asked to enter the new "User ID" and password.                                                                                                If there are several controlunits with the same "User ID and" Password ", there will be a list, where you can choose which controlunits you want to have access to, press " ok " to confirm.</string>
 
 
-    <string name="help_triangle">The warning triangle indicates that
-there may be problems with a controller
-or thermostat.\n• Check if there is contact with all
-thermostats. Check if the batteries in
-the thermostat shows the error on the
-communications (link).\n• Check whether there has been a
-change of password or user ID of the
-controller.</string>
+    <string name="help_triangle">"The warning triangle indicates that there may be problems with a controlunit or thermostat.
+> There is no contact with one or more thermostats, check batteries in the thermostats which shows the error of communication in display. Look also in the Touchline manual on our website (link to your own touchline guidance).
+> Check if there is a change of password or user ID of the controlunit.
+> If the thermostat continue to lose connection, you may need to find a new location for a better signal."</string>
 
 
-      <string name="help_password">For security reasons it is not possible
-to change a password without having
-received a reset code.
-When you ask for a reset code, it will
-automatically be send to your email.
-This code must be entered manually.
-Once when you have received and entered
-the reset code, you can create a
-new password. The default password
-is always 1234.
-Note: If there are multiple users on
-the controller, these users have to perform
-an update on their next login.
-Press the warning triangle and enter
-the user ID and new password.</string>
+      <string name="help_password">Forgotten password:\n> If you have forgotten your "Password" you can recieve it by the e-mail which is registered in the App. For security reasons, enter your "Name" and "User ID" to receive your password. If you have not entered your name or e-mail during the first login, it is not possible to recieve your password again, and you need to make a new registration of the controlunit. This can only be done by sending an email to "Touchline_PW_reset@Roth-industries.com" and give the UID number of the control unit. To find the UID number your App must be on the same WLAN as the controlunit, and you will have to make a new log on as "new user", complete register with name, e-mail and phone no/User ID and press ok. Then choose the controlunit which shall be registered by pressing it. The UID no. appears then on the next screen as a shaded text/no. (Example: 51FF6C064965525743540181)                                                                        \n Change password:                                                                                                       > If you have made a proper registration of a controller with name, e-mail and mobile no./user ID you can change the "Password", however it can only be done by receiving a "reset code" which removes the old password from the portal server.
+                                                                                                                                    New reset code:                                                                                                              \n> When you ask for a reset code, the App will automatically send a request to the portal server, which generates a code that will returned to the user\'s e-mail, this code must be entered manually.
+When you have received and entered the reset code, you can create a new password. The default password is always 1234.
+Please be aware that if there are multiple users on the controlunit, these users need to update the password at next login by clicking on the warning triangle and enter the user ID and the new password.</string>
 
 
-    <string name="help_controller">
-
-        To make your app more user friendly,
-you must complete e-mail and username.
-This is mainly used for multiuser
-installations, but also in case you
-change phones.\n• Naming the control unit is only to facilitate
-the overview, especially if you
-have multiple oor heating systems
-on your app. However, you cannot use
-the same name on multiple devices.
-The naming could e.g. be "At home",
-"Home", etc.\n• The graphical overview shows the
-number of control devices that are
-connected to your app. It is not possible
-to make changes from this screen.
-
-    </string>
+    <string name="help_controller">"To make your new App more userfriendly, we recommend that you fill in the "Name", "Email" and "User ID". This is used in if you switch phone or if more people needs access to the same controlunit.
+> Naming the controlunit is only to facilitate the overview, especially if you have multiple facilities / installations on your App. However, you can not use the same name for more controlunits. The naming could, for example be - "home", "cottage" ... ..
+> The graphical report shows the number of controlunits that are connected to the App, it is not possible to make any changes from this screen."</string>
 
 
-    <string name="help_app">
-
-If you have trouble making contact
-with your Touchline controller it may
-be because:\n• Your controller is not set in "Master"
-mode. Hold the "Master" button on
-the control device for approximately
-10 seconds. See also the manual for
-Touchline on roth-nordic.com.\n• You are not on the same WLAN as
-the controller you want to connect to.
-
-    </string>
+    <string name="help_app">"If you have trouble making contact with your Touchline controlunit it may be because of the following:
+> Your controlunit must be set to "Master". The LED on the control unit must light in "Master", if not press and hold the "Master" button on the control unit for approximately 10 seconds until the LED stops flashing. For more information see the guide for Touchline on our website (link to your own touchline guidance)
+> You are not on the same WLAN as the Controlunit you wish to connect to."</string>
 
 
     <array name="help_menu_items">
         <item>System settings</item>
-        <item>Controller, operation modes</item>
+        <item>Change mode</item>
         <item>Change controller name</item>
-        <item>Change Controller list</item>
+        <item>Edit list of controllerunits</item>
         <item>Controller info</item>
         <item>App settings</item>
         <item>Change user ID</item>
@@ -135,7 +69,7 @@ the controller you want to connect to.
         <item>Thermostat</item>
     </array>
     <string name="title_activity_controller_operating_modes"></string>
-    <string name="title_activity_name_controller">Name controller</string>
+    <string name="title_activity_name_controller">Name the controlunit</string>
     <string name="title_activity_change_user_id">Change user ID</string>
     <string name="title_activity_user_setup">User setup</string>
     <string name="title_activity_change_thermostat_name">Change thermostat name</string>
@@ -143,12 +77,12 @@ the controller you want to connect to.
     <string name="title_activity_thermostat_overview_advanced"></string>
 
     <string name="title_activity_controller_info">Controller info</string>
-    <string name="title_activity_user_login">UserLogin</string>
+    <string name="title_activity_user_login">User login</string>
     <string name="title_activity_change_password">Change password</string>
     <string name="title_activity_no_wlan">No WLAN</string>
     <string name="title_activity_no_internet">No Internet</string>
-    <string name="title_activity_non_existing_user_id">Controller</string>
-    <string name="title_activity_controller_already_registred">Controller</string>
+    <string name="title_activity_non_existing_user_id">Controlunit</string>
+    <string name="title_activity_controller_already_registred">Controlunit</string>
     <string name="title_activity_password_sent_email"></string>
     <string name="title_activity_reset_sent_email">" "</string>
     <string name="title_activity_enter_reset_code">" "</string>
@@ -160,16 +94,16 @@ the controller you want to connect to.
     <string name="ok">OK</string>
     <string name="send_reset_code">Send reset code</string>
     <string name="help_thermostats">Help Screen for thermostats</string>
-    <string name="help_triangle_top">Help Screen for warning triangle connection error</string>
+    <string name="help_triangle_top">Help Screen for connection errors</string>
     <string name="help_ID">Help Screen for user ID</string>
     <string name="usid">User ID</string>
     <string name="email">E-mail:</string>
-    <string name="extra1">Tem volor apelrssuntrum. Non ene, retur.</string>
+    <string name="extra1">The reset code send to your e-amil should be entered in the field above should. Be aware that all letters should be capital.</string>
     <string name="help_app_top">Help Screen App</string>
-    <string name="help_control">Help Screen control</string>
-    <string name="help_pass">Help Screen for password</string>
+    <string name="help_control">Help Screen controlunit</string>
+    <string name="help_pass">Help Screen password</string>
     <string name="new_user">New user</string>
-    <string name="name_unit">Name\nthe unit</string>
+    <string name="name_unit">Name\n the controller</string>
     <string name="controller_registred">Controller is already registered</string>
     <string name="no_inet">No connection to internet</string>
     <string name="no_wlan">No WLAN connection \n\n\n Connect to a WLAN before making a new registration</string>
@@ -193,12 +127,13 @@ the controller you want to connect to.
     <string name="default_pass_enter">Please enter default password: 1234</string>
     <string name="new_uid">New user\nID</string>
     <string name="confirm_pass">Confirm\npassword</string>
-    <string name="extra2">Tem volor apelessuntur non enem reiur</string>
     <string name="new_pass">New\npassword</string>
     <string name="remember_pass">Remember password</string>
     <string name="ready_connect">" - Ready to connect"</string>
     <string name="loading">Loading. Please wait...</string>
 
     <string name="roomname">Room\nName:</string>
+    <string name="login">Log in</string>
+    <string name="edit_controller_list">Edit list of controllerunits</string>
 
 </resources>

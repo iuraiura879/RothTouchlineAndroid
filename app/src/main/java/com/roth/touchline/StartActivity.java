@@ -32,17 +32,14 @@ public class StartActivity extends AppCompatActivity {
 
     User user;
 
-    int lang = 0;
 
-    boolean coldStart = true;
-    final static String COLD_START = "COLD_START";
+
 
     final static String NO_BACK = "NO_BACK";
 
     final static String PREFS = "PREFS";
     final static String REMEMBER_PASS = "REMEMBER_PASS";
-    final static String LANGUAGE = "LANGUAGE";
-    final static String LOCALE_SET = "LOCALE_SET";
+
 
 
     private static boolean isFirstTimeShowingIntroSpinner = true;
@@ -61,21 +58,11 @@ public class StartActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
 
-        coldStart = getIntent().getBooleanExtra("COLD_START",true);
+
         //HERE
 
         SharedPreferences preferences = getApplicationContext().getSharedPreferences(PREFS, android.content.Context.MODE_PRIVATE);
         boolean remember_pass = preferences.getBoolean(REMEMBER_PASS, false);
-
-        //CHANGE LANG
-        String lang = preferences.getString(LANGUAGE, "en");
-        Locale locale = new Locale(lang);
-        Locale.setDefault(locale);
-        Configuration config = new Configuration();
-        config.locale = locale;
-        getBaseContext().getResources().updateConfiguration(config,
-                getBaseContext().getResources().getDisplayMetrics());
-
 
 
 
@@ -100,7 +87,7 @@ public class StartActivity extends AppCompatActivity {
         FragmentManager fm = getSupportFragmentManager();
         FragmentTransaction ft = fm.beginTransaction();
         IntroFragment fragment =new IntroFragment();
-        fragment.coldStart = true;
+
 
         ft.add(R.id.fragment_holder, fragment, "IntroFragment");
         ft.commit();
@@ -158,7 +145,7 @@ public class StartActivity extends AppCompatActivity {
     //Eisting user, creating new fragment, adding to stack
     public void existingUserPressed( View v ){
 
-        lang = (((Spinner) findViewById(R.id.spinner)).getSelectedItemPosition());
+
 
         FragmentManager fragmentManager = getSupportFragmentManager();
 
@@ -226,7 +213,7 @@ public class StartActivity extends AppCompatActivity {
 
             user = new User();
             user.setUserID(((EditText) findViewById(R.id.editText)).getText().toString());
-            user.setLanguage(lang);
+
 
             if( ((CheckBox) findViewById(R.id.checkBox)).isChecked() ) {
 
