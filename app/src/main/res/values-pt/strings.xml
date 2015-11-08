@@ -116,27 +116,27 @@ Caso o módulo de ligação seja utilizado por vários utilizadores, todos os ut
     <string name="existing_uid">Utilizador existente</string>
     <string name="pass_sent_email">A palavra-passe é enviada para o seu endereço de e-mail.</string>
     <string name="old_uid">ID de utilizador\nantigo</string>
-    <string name="name_controller">Name\nController</string>
-    <string name="lang">Language</string>
-    <string name="mobile_no">Mobile no.</string>
-    <string name="default_pass">Default\npassword</string>
-    <string name="enter_reset">Enter\nreset code</string>
-    <string name="pass">Password</string>
-    <string name="back">Back</string>
-    <string name="change_mode">Change mode</string>
-    <string name="old_pass">Old\nPassword</string>
-    <string name="help_text">Help text</string>
-    <string name="save_pass">Save password</string>
-    <string name="default_pass_enter">Please enter default password: 1234</string>
-    <string name="new_uid">New user\nID</string>
-    <string name="confirm_pass">Confirm\npassword</string>
-    <string name="new_pass">New\npassword</string>
-    <string name="remember_pass">Remember password</string>
-    <string name="ready_connect">" - Ready to connect"</string>
-    <string name="loading">Loading. Please wait...</string>
+    <string name="name_controller">Nome do\n módulo de ligação</string>
+    <string name="lang">Idioma</string>
+    <string name="mobile_no">N.º de telefone móvel/ID de utilizador.</string>
+    <string name="default_pass">Palavra-passe\nDefault</string>
+    <string name="enter_reset">Introduzir código\nreset</string>
+    <string name="pass">Palavra-passe</string>
+    <string name="back">Voltar</string>
+    <string name="change_mode">Seleção de um modo operativo</string>
+    <string name="old_pass">Palavra-passe\nantiga</string>
+    <string name="help_text">Texto de ajuda</string>
+    <string name="save_pass">Memorizar palavra-passe</string>
+    <string name="default_pass_enter">Introduzir a palavra-passe default: 1234</string>
+    <string name="new_uid">Nova ID\n de utilizador</string>
+    <string name="confirm_pass">Repetir\n palavra-passe</string>
+    <string name="new_pass">Nova\n palavra-passe</string>
+    <string name="remember_pass">Memorizar palavra-passe</string>
+    <string name="ready_connect">"- Pronto para ligação"</string>
+    <string name="loading">Aguarde...</string>
 
-    <string name="roomname">Room\nName:</string>
-    <string name="login">Log in</string>
+    <string name="roomname">Nome\ndo espaço:</string>
+    <string name="login">Iniciar sessão</string>
     <string name="edit_controller_list">Editar a lista de módulos de ligação</string>
 
 </resources>
