@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">Roth Touchline</string>
+
+    <string name="intro_video"><u>Intro Vidéo</u></string>
+    <string name="request_password"><u>Demander un nouveau mot de passe</u></string>
+
+    <string name="title_activity_start">Roth Touchline</string>
+    <string name="action_settings">Réglages</string>
+
+    <string name="login_help">"Pour établir une liaison avec le module de connexion Touchline, les exigences suivantes doivent être remplies :
+> Le module de connexion doit être configuré comme « Maître ».  Si le voyant à LED « Maître » sur le module de connexion n\'est pas allumé, maintenez la touche « Maître » située sur le module de connexion enfoncée pendant environ 10 secondes jusqu\'à ce que la LED « Maître » arrête de clignoter. Voir également à ce sujet la notice d\'utilisation de Touchline sur notre page d\'accueil (http://www.roth-werke.de)
+> Vous devez vous trouver avec votre téléphone portable dans le même réseau WLAN que le module de connexion avec lequel vous souhaitez établir une liaison."</string>
+    <string name="title_activity_search">Recherche...</string>
+    <string name="title_activity_registe_controller">Modules de connexion trouvés</string>
+    <string name="title_activity_help">Aide</string>
+
+
+    <string name="help_thermostat">"Vous pouvez donner des noms aux différents thermostats, par ex. en fonction de leur emplacement.
+> Si vous vous connectez pour la première fois sur un thermostat, un numéro apparaît, qui vous a été directement attribué par le module de connexion. Lorsque vous sélectionnez ce numéro, vous pouvez modifier le nom.
+> Le réglage de la température s\'effectue à l\'aide des touches Flèche vers le haut/Flèche vers le bas par intervalles de 0,5 degré.
+> Vous pouvez également choisir l\'un des programmes préconfigurés en appuyant tout simplement sur la touche correspondante. Le programme horaire peut uniquement être modifié dans le thermostat Touchline et non via l\'application.
+Une fois que vous aurez validé en appuyant sur « OK », l\'application enverra alors une demande au module de connexion.
+"</string>
+
+
+      <string name="help_user">Le numéro de téléphone portable/ID utilisateur est un code utilisé par le serveur portail pour identifier les différents modules de connexion.  En cas de modification de l\'ID utilisateur, la modification est également effectuée sur le portail serveur. Il en résulte que tous les modules de connexion présentant le même ID utilisateur et mot de passe sont mis à jour simultanément. Veuillez noter qu\'une modification a pour conséquence que d\'autres utilisateurs sont en mesure d\'accéder aux modules de connexion uniquement lorsqu\'ils modifient également « l\'ID utilisateur » lors de la prochaine connexion.
+Quand « l\'ID utilisateur » a été modifié, les autres utilisateurs peuvent apercevoir un triangle de signalisation à côté des modules de connexion auxquels ils avaient accès auparavant. Lorsqu\'ils essaient de se connecter, ils sont invités à saisir les nouveaux « ID utilisateur » et mot de passe.                                                     S\'il existe plusieurs modules de connexion avec le même « ID utilisateur » et « mot de passe », une liste apparaît et il est possible de sélectionner les modules de connexion auxquels on souhaite avoir accès. Confirmez avec « OK ».
+</string>
+
+
+    <string name="help_triangle">"Le triangle de signalisation indique qu\'il y a des problèmes avec un module de connexion ou un thermostat.
+>Si aucune liaison ne peut être établie avec un ou plusieurs thermostats, veuillez vérifier les batteries des thermostats dont l\'écran signale une erreur de communication. Voir également à ce sujet la notice d\'utilisation Touchline sur notre page d\'accueil (http://www.roth werke.de).
+> Vérifiez si le mot de passe ou l\'ID utilisateur du module de connexion a été modifié.
+> Si la communication avec le thermostat est de nouveau défaillante, il peut être judicieux de placer le thermostat à un autre endroit pour une meilleure réception du signal."</string>
+
+
+      <string name="help_password">"Mot de passe oublié :
+> Si vous avez oublié votre « mot de passe », vous pouvez vous le faire envoyer à l\'adresse e-mail qui vous a servi à vous inscrire sur l\'application.  Pour des raisons de sécurité, vous devez saisir votre « Nom » et votre « ID utilisateur » pour recevoir le mot de passe par e-mail. Si vous n\'avez saisi aucun nom ni aucune adresse e-mail lors de votre première connexion, aucun nouveau mot de passe ne peut vous être envoyé et vous devez à nouveau vous inscrire sur le module de connexion. Pour cela, il suffit d\'envoyer un mail à l\'adresse « Touchline_PW_reset@Roth-industries.com » en indiquant le numéro UID du module de connexion.  Pour retrouver l\'UID, vous devez vous trouver dans le même réseau WLAN que le module de connexion et vous être connecté en tant que « Nouvel utilisateur ». Remplissez le formulaire d\'enregistrement en saisissant votre nom, adresse e-mail et numéro de téléphone/ID utilisateur et appuyez sur « OK ». Sélectionnez le module de connexion. Le numéro d\'ID apparaît ensuite sur l\'écran suivant sous forme de texte/n° grisé (exemple : 51FF6C064965525743540181).                                                                                                                                                                                                            \n Modifier mot de passe :
+> Après avoir achevé l\'enregistrement du module de connexion avec le nom, l\'e-mail et le n° de téléphone/ID utilisateur, vous pouvez modifier le « mot de passe ». Pour cela, vous devez vous faire envoyer un « code de réinitialisation », lequel vous permet de réinitialiser votre ancien mot de passe pour le serveur portail et saisir une valeur standard.
+
+Nouveau code de réinitialisation :
+> En cas de demande de code de réinitialisation, l\'application envoie automatiquement une demande au serveur portail qui génère un code, qui est ensuite envoyé à l\'adresse e-mail de l\'utilisateur et qui doit alors être saisie manuellement.
+Après réception et saisie du code de réinitialisation, il est possible de saisir un nouveau mot de passe. Le mot de passe par défaut est toujours 1234.
+Si le module de connexion est utilisé par plusieurs utilisateurs, tous les utilisateurs doivent effectuer une mise à jour à la prochaine connexion, en appuyant sur le triangle de signalisation et en saisissant le nouvel ID utilisateur et le nouveau mot de passe.
+"</string>
+
+
+    <string name="help_controller">"Pour une utilisation plus aisée, nous recommandons d\'indiquer « Nom », « E-mail » et « ID utilisateur ». Cela est, par exemple, nécessaire dans le cas d\'un remplacement de téléphone portable ou, lorsque plusieurs utilisateurs sont sur le même module de connexion.
+> La dénomination du module de connexion est indispensable uniquement à des fins de clarté, notamment lorsque plusieurs installations sont en place dans l\'application. Néanmoins, il n\'est pas possible d\'utiliser le même nom pour plusieurs modules de connexion. La dénomination pourrait par ex. être « domicile », « maison de vacances »...
+> L\'interface graphique affiche le nombre de modules de connexion reliés à l\'application. Dans cet écran, aucune modification n\'est possible.
+"</string>
+
+
+    <string name="help_app">"Si vous avez des problèmes pour vous connecter avec le module de connexion Touchline, cela peut être dû aux causes suivantes :
+> Le module de connexion doit être configuré comme « Maître ». Si le voyant à LED « Maître » sur le module de connexion n\'est pas allumé, maintenez la touche « Maître » située sur le module de connexion, enfoncée pendant environ 10 secondes jusqu\'à ce que la LED « Maître » arrête de clignoter. Voir également à ce sujet la notice d\'utilisation de Touchline sur notre page d\'accueil (http://www.roth-werke.de)
+> Vous ne vous trouvez pas dans le même réseau WLAN que le module de connexion avec lequel vous souhaitez établir une liaison."</string>
+
+
+    <array name="help_menu_items">
+        <item>Réglages système</item>
+        <item>Choix du mode de fonctionnement</item>
+        <item>Modifier le nom du module de connexion</item>
+        <item>Traiter la liste des modules de connexion</item>
+        <item>Info système</item>
+        <item>Paramètres application</item>
+        <item>Modifier l\'ID utilisateur</item>
+        <item>Modifier le mot de passe</item>
+        <item>Configuration utilisateur</item>
+        <item>Réglages thermostat</item>
+        <item>Modifier le nom du thermostat</item>
+        <item>Aperçu des thermostats</item>
+        <item>Aide</item>
+        <item>Mot de passe</item>
+        <item>Module de connexion</item>
+        <item>Application</item>
+        <item>ID utilisateur</item>
+        <item>Thermostat</item>
+    </array>
+    <string name="title_activity_controller_operating_modes"></string>
+    <string name="title_activity_name_controller">Nom du module de connexion</string>
+    <string name="title_activity_change_user_id">Modifier l\'ID utilisateur</string>
+    <string name="title_activity_user_setup">Configuration utilisateur</string>
+    <string name="title_activity_change_thermostat_name">Modifier le nom du thermostat</string>
+    <string name="title_activity_thermostat_overview">Aperçu des thermostats</string>
+    <string name="title_activity_thermostat_overview_advanced"></string>
+
+    <string name="title_activity_controller_info">Info système</string>
+    <string name="title_activity_user_login">Données de connexion utilisateur</string>
+    <string name="title_activity_change_password">Modifier le mot de passe</string>
+    <string name="title_activity_no_wlan">Absence de WLAN</string>
+    <string name="title_activity_no_internet">Absence de connexion internet</string>
+    <string name="title_activity_non_existing_user_id">Module de connexion</string>
+    <string name="title_activity_controller_already_registred">Module de connexion</string>
+    <string name="title_activity_password_sent_email"></string>
+    <string name="title_activity_reset_sent_email">" "</string>
+    <string name="title_activity_enter_reset_code">" "</string>
+    <string name="title_activity_change_default_password">" "</string>
+    <string name="title_activity_wrong_pass">""</string>
+    <string name="touchline">Touchline</string>
+    <string name="name">Nom:</string>
+    <string name="error">Causes possibles des messages d\'erreur.</string>
+    <string name="ok">OK</string>
+    <string name="send_reset_code">Envoyer code de réinitialisation</string>
+    <string name="help_thermostats">Menu d\'aide des thermostats</string>
+    <string name="help_triangle_top">Aide en cas de problèmes de connexion</string>
+    <string name="help_ID">Aide pour l\'ID utilisateur</string>
+    <string name="usid">ID utilisateur</string>
+    <string name="email">E-mail:</string>
+    <string name="extra1">Le code de réinitialisation envoyé par e-mail doit être saisi dans le champ supérieur. Veuillez noter que tout doit être écrit en lettres majuscules.</string>
+    <string name="help_app_top">Aide sur l\'application</string>
+    <string name="help_control">Aide sur le module de connexion</string>
+    <string name="help_pass">Aide sur le mot de passe</string>
+    <string name="new_user">Nouvel utilisateur</string>
+    <string name="name_unit">Dénommer module de connexion\n</string>
+    <string name="controller_registred">Le module de connexion est déjà enregistré</string>
+    <string name="no_inet">Absence de connexion internet</string>
+    <string name="no_wlan">Aucune connexion WLAN \n\n\n Établissez une connexion au même réseau WLAN que celui du module de connexion pour procéder à un nouvel enregistrement. </string>
+    <string name="no_uid">L\'ID utilisateur n\'existe pas</string>
+    <string name="reset_email">Le code de réinitialisation est envoyé à votre adresse e-mail.</string>
+    <string name="incorrect_pass">Mot de passe incorrect</string>
+    <string name="existing_uid">Utilisateur déjà existant</string>
+    <string name="pass_sent_email">Le mot de passe est envoyé à votre adresse e-mail.</string>
+    <string name="old_uid">Ancien\n ID utilisateur</string>
+    <string name="name_controller">Nom du\n module de connexion</string>
+    <string name="lang">Langue</string>
+    <string name="mobile_no">N° téléphone portable/ID utilisateur</string>
+    <string name="default_pass">Mot de passe\n par défaut</string>
+    <string name="enter_reset">Saisir code\n de réinitialisation</string>
+    <string name="pass">Mot de passe</string>
+    <string name="back">Retour</string>
+    <string name="change_mode">Choix du mode de fonctionnement</string>
+    <string name="old_pass">Ancien\n mot de passe</string>
+    <string name="help_text">Texte d\'aide</string>
+    <string name="save_pass">Enregistrer le mot de passe</string>
+    <string name="default_pass_enter">Saisir le mot de passe par défaut : 1234</string>
+    <string name="new_uid">Nouvel ID\n utilisateur</string>
+    <string name="confirm_pass">Répéter le mot\n de passe</string>
+    <string name="new_pass">Nouveau\n mot de passe</string>
+    <string name="remember_pass">Enregistrer le mot de passe</string>
+    <string name="ready_connect">" - Prêt pour la connexion"</string>
+    <string name="loading">Veuillez patienter...</string>
+
+    <string name="roomname">Nom de\nla pièce</string>
+    <string name="login">Connecter</string>
+    <string name="edit_controller_list">Traiter la liste des modules de connexion</string>
+
+</resources>

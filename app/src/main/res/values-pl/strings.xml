@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">Roth Touchline</string>
+
+    <string name="intro_video"><u>Filmwprowadzający</u></string>
+    <string name="request_password"><u>Zażądaj nowego hasła</u></string>
+
+    <string name="title_activity_start">Roth Touchline</string>
+    <string name="action_settings">Ustawienia</string>
+
+    <string name="login_help">"Aby uzyskać połączenie z modułem przyłączeniowym Touchline, trzeba spełnić następujące wymagania:
+> Moduł przyłączeniowy musi być ustawiony jako „Master”. Jeśli na module przyłączeniowym nie świeci się dioda „Master”, należy przytrzymać wciśnięty przycisk „Master” na module przyłączeniowym przez ok. 10 sekund, aż dioda Master przestanie migać. Informacje na ten temat znajdują się w instrukcji obsługi urządzenia Touchline dostępnej na naszej stronie internetowej (http://www.roth-werke dodać link)
+> Należy połączyć telefon komórkowy z tą samą siecią WLAN, z którą ma zostać połączony moduł przyłączeniowy."</string>
+    <string name="title_activity_search">Wyszukiwanie ...</string>
+    <string name="title_activity_registe_controller">Znalezione moduły przyłączeniowe</string>
+    <string name="title_activity_help">Pomoc</string>
+
+
+    <string name="help_thermostat">"Można przypisać nazwy do poszczególnych termostatów np. według ich rozmieszczenia.
+> Przy pierwszym logowaniu do termostatu pojawia się numer, który został automatycznie przydzielony przez moduł przyłączeniowy. Po wybraniu numeru można zmienić nazwę.
+> Ustawienie temperatury odbywa się za pomocą przycisków „strzałka w górę/strzałka w dół” w odstępach co 0,5 stopnia.
+> Można także wybrać jeden ze wstępnie zaprogramowanych programów poprzez wciśnięcie odpowiedniego przycisku. Program czasowy można zmienić tylko w termostacie Touchline, lecz nie za pośrednictwem aplikacji.
+Dopiero po naciśnięciu na „OK” aplikacja wysyła polecenie do modułu przyłączeniowego."</string>
+
+
+      <string name="help_user">"Numer telefonu komórkowego/ID użytkownika to kod, którego używa serwer portalu do identyfikacji poszczególnych modułów przyłączeniowych.  W przypadku zmiany ID użytkownika zostaje ono zmienione także na serwerze portalu. Prowadzi to do tego, że wszystkie moduły przyłączeniowe zostają zaktualizowane z takim samym ID użytkownika i hasłem. Należy pamiętać, że zmiana powoduje, iż inni użytkownicy mogą uzyskać dostęp do modułów przyłączeniowych, tylko jeżeli także zmienią „ID użytkownika” przy następnym logowaniu.
+Po zmianie „ID użytkownika” pozostali użytkownicy widzą ostrzegawczy trójkąt przy modułach przyłączeniowych, do których wcześniej mieli dostęp. Przy próbie zalogowania się należy podać nowe „ID użytkownika” i hasło.
+W przypadku większej ilości modułów przyłączeniowych z takim samym „ID użytkownika” i takim samym „hasłem” pojawia się lista wyboru modułów przyłączeniowych, do których chce się uzyskać dostęp. Potwierdzić, wciskając „OK”."</string>
+
+
+    <string name="help_triangle">"Symbol trójkąta ostrzegawczego oznacza, że w module przyłączeniowym lub termostacie wystąpił problem.
+> Jeśli nie można nawiązać połączenia z jednym lub kilkoma termostatami, należy sprawdzić baterie w termostatach, które wykazują błąd komunikacji na wyświetlaczu. Informacje na ten temat znajdują się w instrukcji obsługi urządzenia Touchline dostępnej na naszej stronie internetowej (http://www.roth-werke dodać link)
+> Sprawdzić, czy hasło lub ID użytkownika modułu przyłączeniowego zostały zmienione.
+> Jeśli połączenie z termostatem często się przerywa, zaleca się umieszczenie termostatu w miejscu, w którym jakość sygnału będzie lepsza."</string>
+
+
+      <string name="help_password">"Zapomniałeś hasła:
+> W razie zapomnienia „hasła”, można zażądać przesłania go na adres e-mail, którego użyto podczas rejestracji.  Aby otrzymać hasło, należy ze względów bezpieczeństwa podać „nazwę” i „ID użytkownika”. Jeśli przy pierwszym logowaniu nie podano nazwy i adresu e-mail, nie można zażądać przesłania nowego hasła. Wymaga to nowej rejestracji w module przyłączeniowym. Odbywa się to poprzez przesłanie maila na adres "Touchline_PW_reset@Roth-industries.com" z podaniem numeru UID modułu przyłączeniowego.  Aby znaleźć UID należy połączyć się z tą samą siecią WLAN, do której podłączony jest moduł przyłączeniowy i zalogować się jako „nowy użytkownik”. Wypełnić formularz rejestracyjny, podając imię i nazwisko, adres e-mail i numer telefonu/ID użytkownika, a następnie wcisnąć „OK”. Wybrać moduł przyłączeniowy. Następnie numer UID pojawi się w kolejnym okniew formie zacienionego tekstu/numeru (Przykład: 51FF6C064965525743540181).                                                                                                                                                                                                             \n Zmiana hasła:
+> Po zakończeniu rejestracji modułu przyłączeniowego z podaniem imienia i nazwiska, adresu e-mail i numeru telefonu/ID użytkownika, można zmienić „hasło”. W tym celu należy zażądać przesłania „kodu resetującego”, za pomocą którego można zresetować stare hasło do serwera portalu do wartości standardowej.
+
+Nowy kod resetujący:
+> W przypadku zażądania kodu resetującego aplikacja automatycznie wysyła zapytanie do serwera portalu, który generuje kod. Następnie kod zostaje przesłany na adres e-mail użytkownika i należy go ręcznie wprowadzić.
+Po otrzymaniu i wprowadzeniu kodu resetującego można wprowadzić nowe hasło. Domyślne hasło to zawsze 1234.
+Jeśli moduł przyłączeniowy jest używany przez kilku użytkowników, muszą oni przy następnym logowaniu przeprowadzić aktualizację poprzez naciśnięcie na symbol trójkąta ostrzegawczego i wprowadzenie nowego ID użytkownika i nowego hasła."</string>
+
+
+    <string name="help_controller">"Dla wygodnej obsługi zaleca się podanie „nazwy”, „adresu e-mail” i „ID użytkownika”. Jest to konieczne np. w przypadku zmiany telefonu komórkowego lub , gdy więcej użytkowników używa tego samego modułu przyłączeniowego.
+>  Nadanie nazwy modułowi przyłączeniowemu jest konieczne tylko w celu uzyskania lepszej przejrzystości, w szczególności jeżeli w aplikacji zainstalowanych jest więcej urządzeń/instalacji. Nie można jednak używać takiej samej nazwy dla kilku modułów przyłączeniowych. Moduł przyłączeniowy można nazwać np. „dom”, „dom letniskowy” itp.
+> Graficzny wyświetlacz pokazuje liczbę modułów przyłączeniowych podłączonych do aplikacji. W tym oknie  zmiany nie są możliwe."</string>
+
+
+    <string name="help_app">"W przypadku wystąpienia problemów z połączeniem z modułem przyłączeniowym Touchline, należy pamiętać, że:                                                                                                                    > moduł przyłączeniowy musi być ustawiony jako „Master”. Jeśli na module przyłączeniowym nie świeci się dioda „Master”, przytrzymać wciśnięty przycisk „Master” na module przyłączeniowym przez ok. 10 sekund aż dioda Master przestanie migać. Informacje na ten temat znajdują się w instrukcji obsługi urządzenia Touchline dostępnej na naszej stronie internetowej (http://www.roth-werke dodać adres strony domowej)
+> Telefon komórkowy nie jest połączony z tą samą siecią WLAN, z którą ma zostać połączony moduł przyłączeniowy."</string>
+
+
+    <array name="help_menu_items">
+        <item>Ustawienia systemowe</item>
+        <item>Wybór trybu pracy</item>
+        <item>Zmień nazwę modułu przyłączeniowego</item>
+        <item>Edytuj listę modułów przyłączeniowych</item>
+        <item>Informacje systemowe</item>
+        <item>Ustawienia aplikacji</item>
+        <item>Zmiana ID użytkownika</item>
+        <item>Zmiana hasła</item>
+        <item>Ustawienia użytkownika</item>
+        <item>Ustawienia termostatu</item>
+        <item>Zmiana nazwy termostatu</item>
+        <item>Przegląd termostatów</item>
+        <item>Pomoc</item>
+        <item>Hasło</item>
+        <item>Moduł przyłączeniowy</item>
+        <item>Aplikacja</item>
+        <item>ID użytkownika</item>
+        <item>Termostat</item>
+    </array>
+    <string name="title_activity_controller_operating_modes"></string>
+    <string name="title_activity_name_controller">Nazwa modułu przyłączeniowego</string>
+    <string name="title_activity_change_user_id">Zmiana ID użytkownika</string>
+    <string name="title_activity_user_setup">Ustawienia użytkownika</string>
+    <string name="title_activity_change_thermostat_name">Zmiana nazwy termostatu</string>
+    <string name="title_activity_thermostat_overview">Przegląd termostatów</string>
+    <string name="title_activity_thermostat_overview_advanced"></string>
+
+    <string name="title_activity_controller_info">Informacje systemowe</string>
+    <string name="title_activity_user_login">Dane logowania użytkownika</string>
+    <string name="title_activity_change_password">Zmiana hasła</string>
+    <string name="title_activity_no_wlan">Brak sieci WLAN</string>
+    <string name="title_activity_no_internet">Brak połączenia internetowego</string>
+    <string name="title_activity_non_existing_user_id">Moduł przyłączeniowy</string>
+    <string name="title_activity_controller_already_registred">Moduł przyłączeniowy</string>
+    <string name="title_activity_password_sent_email"></string>
+    <string name="title_activity_reset_sent_email">" "</string>
+    <string name="title_activity_enter_reset_code">" "</string>
+    <string name="title_activity_change_default_password">" "</string>
+    <string name="title_activity_wrong_pass">""</string>
+    <string name="touchline">Touchline</string>
+    <string name="name">Nazwa:</string>
+    <string name="error">Możliwe przyczyny komunikatów błędów.</string>
+    <string name="ok">OK</string>
+    <string name="send_reset_code">Wyślij kod resetujący</string>
+    <string name="help_thermostats">Menu pomocy Termostaty</string>
+    <string name="help_triangle_top">Pomoc przy problemach z połączeniem</string>
+    <string name="help_ID">Pomoc dla ID użytkownika</string>
+    <string name="usid">ID użytkownika</string>
+    <string name="email">E-Mail:</string>
+    <string name="extra1">Wysłany mailowo kod resetujący należy wprowadzić w polu znajdującym się u góry. Należy pamiętać, że wszystkie dane trzeba wprowadzić wielkimi literami.</string>
+    <string name="help_app_top">Pomoc dot. aplikacji</string>
+    <string name="help_control">Pomoc dot. modułu przyłączeniowego</string>
+    <string name="help_pass">Pomoc dot. hasła</string>
+    <string name="new_user">Nowy użytkownik</string>
+    <string name="name_unit">Podaj nazwę\nmodułu przyłączeniowego</string>
+    <string name="controller_registred">Moduł przyłączeniowy jest już zarejestrowany</string>
+    <string name="no_inet">Brak połączenia internetowego</string>
+    <string name="no_wlan">Brak połączenia WLAN \n\n\n Należy nawiązać połączenie z tą samą siecią WLAN, do której podłączony jest moduł przyłączeniowy, aby rozpocząć nową rejestrację.</string>
+    <string name="no_uid">Brak ID użytkownika</string>
+    <string name="reset_email">Kod resetujący został wysłany na Twój adres e-mail.</string>
+    <string name="incorrect_pass">Nieprawidłowe hasło</string>
+    <string name="existing_uid">Użytkownik już istnieje</string>
+    <string name="pass_sent_email">Hasło zostałowysłane na Twój adres e-mail.</string>
+    <string name="old_uid">Stare\n ID użytkownika</string>
+    <string name="name_controller">Nazwa\nmodułu przyłączeniowego</string>
+    <string name="lang">Język</string>
+    <string name="mobile_no">Numer telefonu komórkowego/ID użytkownika</string>
+    <string name="default_pass">Domyślne\n hasło</string>
+    <string name="enter_reset">Wprowadź\n kod resetujący</string>
+    <string name="pass">Hasło</string>
+    <string name="back">Powrót</string>
+    <string name="change_mode">Wybór trybu pracy</string>
+    <string name="old_pass">Stare\n hasło</string>
+    <string name="help_text">Tekst pomocniczy</string>
+    <string name="save_pass">Zapisz hasło</string>
+    <string name="default_pass_enter">Wprowadź domyślne hasło: 1234</string>
+    <string name="new_uid">Nowe ID\n użytkownika</string>
+    <string name="confirm_pass">Powtórz\nhasło</string>
+    <string name="new_pass">Nowe\nhasło</string>
+    <string name="remember_pass">Zapisz hasło</string>
+    <string name="ready_connect">"- Gotowe do podłączenia"</string>
+    <string name="loading">Proszę czekać...</string>
+
+    <string name="roomname">Nazwa\npomieszczenia</string>
+    <string name="login">Zaloguj się</string>
+    <string name="edit_controller_list">Edytuj listę modułów przyłączeniowych</string>
+
+</resources>

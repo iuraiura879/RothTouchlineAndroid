@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">Roth Touchline</string>
+
+    <string name="intro_video"><u>Intro video</u></string>
+    <string name="request_password"><u>Solicitar nova palavra-passe </u></string>
+
+    <string name="title_activity_start">Roth Touchline</string>
+    <string name="action_settings">Ajustes</string>
+
+    <string name="login_help">"Para obter uma ligação ao módulos de ligação Touchline, os seguintes requisitos devem estar cumpridos:
+> O módulo de ligação deve estar configurado como "Master". Caso o "Master" LED não acenda no módulo de ligação, mantenha a tecla "Master" no módulo de ligação premida durante aprox. 10 segundos até o Master LED parar de piscar. Relativamente a isto ver também o manual de instruções relativo ao Touchline na nossa homepage (http://www.roth-werke Inserir link)
+> Deve encontrar-se com o seu telemóvel na mesma rede WLAN, como o módulo de ligação com o qual pretende estabelecer uma ligação."</string>
+    <string name="title_activity_search">Pesquisa ...</string>
+    <string name="title_activity_registe_controller">Módulos de ligação encontrados</string>
+    <string name="title_activity_help">Ajuda</string>
+
+
+    <string name="help_thermostat">"Pode atribuir nomes aos termóstatos individuais, por ex. de acordo com o seu posicionamento.
+> Quando se regista pela primeira vez num termóstato, surge um número, que foi automaticamente distribuído pelo módulo de ligação. Ao selecionar este número pode alterar o nome.
+> O ajuste de temperatura ocorre com a ajuda das teclas de seta para cima/seta para baixo com um intervalo de 0,5 graus.
+> Também pode selecionar um dos programas pré-selecionados, tocando simplesmente na respetiva tecla. O programa temporal apenas pode ser alterado no termóstato Touchline, não através da app.
+Apenas quando tocar em "OK", a app envia uma ordem ao módulo de ligação."</string>
+
+
+      <string name="help_user">"O número de telefone móvel/a ID de utilizador é um código, que utiliza o servidor do portal para identificação dos módulos de ligação individuais.  Em caso de alteração da ID do utilizador este também será alterado no servidor do portal. Isto leva a que todos os módulos de ligação sejam atualizados com a mesma ID de utilizador e palavra-passe em simultâneo. Tenha em atenção que a alteração conduz a que os outros utilizadores apenas voltem a poder aceder aos módulos de ligação quando alterarem a "ID de utilizador" no log-in seguinte.
+Caso a "ID de utilizador" tenha sido alterado, os outros utilizadores visualizam um triângulo de aviso ao lado dos módulos de ligação, aos quais anteriormente tinham acesso. Na tentativa de se registarem, é-lhes solicitado que introduzam a nova "ID de utilizador" e a palavra-passe.
+Em caso de vários módulos de ligação com a mesma "ID de utilizador" e a mesma "Palavra-passe" surge uma lista, na qual é possível selecionar a que módulos de ligação se pretende ter acesso. Confirme com "OK"."</string>
+
+    <string name="help_triangle">"O triângulo de aviso indica que existem problemas com um módulo de ligação ou um termóstato.
+> Caso seja possível configurar uma ligação a um ou vários termóstatos, verifique as baterias nos termóstatos, que exibem um erro de comunicação no visor. Relativamente a isto ver também o manual de instruções relativo ao Touchline na nossa homepage (http://www.roth werke Inserir link).
+> Verifique se a palavra-passe ou a ID de utilizador do módulo de ligação foi alterado.
+> Caso a ligação ao termóstato falhe repetidamente, pode ser útil, posicionar o termóstato noutro local, para obter um melhor sinal."</string>
+
+
+      <string name="help_password">"Esqueceu a palavra-passe:
+> Caso tenha esquecido a "Palavra-passe" pode solicitar o envio da mesma para o endereço de e-mail, com o qual se registou na app.  Por motivos de segurança deve introduzir o "Nome" e a "ID de utilizador", para lhe ser enviada a palavra-passe. Caso no primeiro log-in não tenha introduzido qualquer nome ou endereço de e-mail, não lhe pode ser enviada qualquer nova palavra-passe e deve registar-se de novo no módulo de ligação. Isto ocorre através do envio de um mail para "Touchline_PW_reset@Roth-industries.com" com indicação do número UID do módulo de ligação.  Para encontrar o UID, deve encontrar-se na mesma rede WLAN que o módulo de ligação e registar-se como "Novo utilizador". Preencha o formulário de registo com indicação do nome, endereço de e-mail e número de telefone/ID de utilizador e toque em "OK". Selecione o módulo de ligação. De seguida o número UID surge no ecrã seguinte como texto/n.º sombreado. (Exemplo: 51FF6C064965525743540181).                                                                                                                                                                                                             \n Alterar palavra-passe:
+> Após registo bem-sucedido do módulo de ligação com nome, e-mail e n.º de telefone móvel/ID de utilizador, a "Palavra-passe" pode ser alterada. Para isso deve solicitar o envio de um "Código reset", com o qual pode repor a sua palavra-passe antiga para o servidor do portal para o valor padrão.
+
+Novo código reset:
+> Em caso de solicitação de um código reset a app envia automaticamente um pedido ao servidor do portal, que cria um código, que depois será enviado ao endereço de e-mail do utilizador e que deve ser introduzido manualmente.
+Após obtenção e introdução do código reset pode ser introduzida uma nova palavra-passe. A palavra-passe Default é sempre 1234.
+Caso o módulo de ligação seja utilizado por vários utilizadores, todos os utilizadores devem executar uma atualização no log-in seguinte, tocando no triângulo de aviso e introduzindo a nova ID de utilizador e a nova palavra-passe."</string>
+
+
+    <string name="help_controller">"Para uma operação confortável, recomendamos a indicação do "Nome", "E-mail" e " da "ID de utilizador". Isto é por ex. necessário associado a uma troca do telefone móvel ou, caso váriosutilizadores utilizem o mesmo módulo de ligação.
+> A designação do módulo de ligação apenas é necessária para uma melhor transparência, especialmente caso se encontrem instalados vários sistemas/instalações na app. No entanto, não pode ser utilizado o mesmo nome para vários módulos de ligação. A designação poderia ser por ex. – "em caso", "casa de férias" …..
+> A superfície gráfica exibe o número dos módulos de ligação ligados à app. Neste ecrãnão são possíveis quaisquer alterações."</string>
+
+
+    <string name="help_app">"Caso tenha problemas em obter uma ligação ao módulo de ligação Touchline, isso pode ter as seguintes consequências:                                                                                                                    > O módulo de ligação deve estar configurado como "Master". Caso o "Master" LED não acenda no módulo de ligação, mantenha a tecla "Master" no módulo de ligação premida durante aprox. 10 segundos até o Master LED parar de piscar.  Relativamente a isto ver também o manual de instruções relativo ao Touchline na nossa homepage  (http://www.roth-werke Indicar homepage)
+> Não se encontra na mesma rede WLAN que o módulo de ligação relativamente ao qual pretende configurar uma ligação."</string>
+
+
+    <array name="help_menu_items">
+        <item>Ajustes de sistema</item>
+        <item>Seleção de um modo operativo</item>
+        <item>Alterar o nome do módulo de ligação</item>
+        <item>Editar a lista de módulos de ligação</item>
+        <item>Info Sistema</item>
+        <item>Ajustes App</item>
+        <item>Alterar ID de utilizador</item>
+        <item>Alterar palavra-passe</item>
+        <item>Setup Utilizador</item>
+        <item>Ajustes de termóstato</item>
+        <item>Alterar o nome do termóstato</item>
+        <item>Vista geral Termóstatos</item>
+        <item>Ajuda</item>
+        <item>Palavra-passe</item>
+        <item>Módulo de ligação</item>
+        <item>App</item>
+        <item>ID de utilizador</item>
+        <item>Termóstato</item>
+    </array>
+    <string name="title_activity_controller_operating_modes"></string>
+    <string name="title_activity_name_controller">Nome do módulo de ligação</string>
+    <string name="title_activity_change_user_id">Alterar ID de utilizador</string>
+    <string name="title_activity_user_setup">Setup Utilizador</string>
+    <string name="title_activity_change_thermostat_name">Alterar o nome do termóstato</string>
+    <string name="title_activity_thermostat_overview">Vista geral Termóstatos</string>
+    <string name="title_activity_thermostat_overview_advanced"></string>
+
+    <string name="title_activity_controller_info">Info Sistema</string>
+    <string name="title_activity_user_login">Login Utilizador</string>
+    <string name="title_activity_change_password">Alterar palavra-passe</string>
+    <string name="title_activity_no_wlan">Sem WLAN</string>
+    <string name="title_activity_no_internet">Sem ligação à internet</string>
+    <string name="title_activity_non_existing_user_id">Módulo de ligação</string>
+    <string name="title_activity_controller_already_registred">Módulo de ligação</string>
+    <string name="title_activity_password_sent_email"></string>
+    <string name="title_activity_reset_sent_email">" "</string>
+    <string name="title_activity_enter_reset_code">" "</string>
+    <string name="title_activity_change_default_password">" "</string>
+    <string name="title_activity_wrong_pass">""</string>
+    <string name="touchline">Touchline</string>
+    <string name="name">Nome:</string>
+    <string name="error">Possíveis causas para mensagens de erro.</string>
+    <string name="ok">OK</string>
+    <string name="send_reset_code">Enviar código reset</string>
+    <string name="help_thermostats">Menu auxiliar Termóstatos</string>
+    <string name="help_triangle_top">Ajuda no caso de problemas na ligação</string>
+    <string name="help_ID">Ajuda relativa à ID de utilizador</string>
+    <string name="usid">ID de utilizador</string>
+    <string name="email">E-mail:</string>
+    <string name="extra1">O código reset enviado por e-mail deve ser introduzido no campo acima. Tenha em atenção que tudo deve ser escrito com maiúsculas.</string>
+    <string name="help_app_top">Ajuda relativa à app</string>
+    <string name="help_control">Ajuda relativa ao módulo de ligação</string>
+    <string name="help_pass">Ajuda relativa à palavra-passe</string>
+    <string name="new_user">Novo utilizador</string>
+    <string name="name_unit">Atribuir nome ao módulo\nde ligação</string>
+    <string name="controller_registred">O módulo de ligação já se encontra registado</string>
+    <string name="no_inet">Sem ligação à internet</string>
+    <string name="no_wlan">Sem ligação WLAN \n\n\n Estabeleça uma ligação à mesma WLAN, na qual se encontra o módulo de ligação, para efetuar um novo registo.</string>
+    <string name="no_uid">Não existe ID de utilizador</string>
+    <string name="reset_email">O código reset é enviado para o seu endereço de e-mail.</string>
+    <string name="incorrect_pass">Palavra-passe incorreta</string>
+    <string name="existing_uid">Utilizador existente</string>
+    <string name="pass_sent_email">A palavra-passe é enviada para o seu endereço de e-mail.</string>
+    <string name="old_uid">ID de utilizador\nantigo</string>
+    <string name="name_controller">Name\nController</string>
+    <string name="lang">Language</string>
+    <string name="mobile_no">Mobile no.</string>
+    <string name="default_pass">Default\npassword</string>
+    <string name="enter_reset">Enter\nreset code</string>
+    <string name="pass">Password</string>
+    <string name="back">Back</string>
+    <string name="change_mode">Change mode</string>
+    <string name="old_pass">Old\nPassword</string>
+    <string name="help_text">Help text</string>
+    <string name="save_pass">Save password</string>
+    <string name="default_pass_enter">Please enter default password: 1234</string>
+    <string name="new_uid">New user\nID</string>
+    <string name="confirm_pass">Confirm\npassword</string>
+    <string name="new_pass">New\npassword</string>
+    <string name="remember_pass">Remember password</string>
+    <string name="ready_connect">" - Ready to connect"</string>
+    <string name="loading">Loading. Please wait...</string>
+
+    <string name="roomname">Room\nName:</string>
+    <string name="login">Log in</string>
+    <string name="edit_controller_list">Editar a lista de módulos de ligação</string>
+
+</resources>

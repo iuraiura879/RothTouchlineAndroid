@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">Roth Touchline</string>
+
+    <string name="intro_video"><u>Intro video</u></string>
+    <string name="request_password"><u>Begär nytt lösenord</u></string>
+
+    <string name="title_activity_start">Roth Touchline</string>
+    <string name="action_settings">Inställningar</string>
+
+    <string name="login_help">"För att etablera kontakt med Touchline kontrollenhet, är det viktigt att följade krav är uppfyllda;
+> Din kontrollenhet måste ställas in som "Master". Lysdioden "Master" på kontrollenheten ska vara tänd, om den inte är det håll då "Master" knappen på kontrollenheten nedtryckt i ca. 10 sekunder tills den slutar att blinka. För mer information se våran guide på hemsidan (www.roth-nordic.se)
+> Du måste vara på samma WiFi - nätverk som kontrollenheten du önskar att ansluta till med din telefon och din telefon behöver vara ansluten till WiFi."</string>
+    <string name="title_activity_search">Söker...</string>
+    <string name="title_activity_registe_controller">Hittade kontrollenheter</string>
+    <string name="title_activity_help">Hjälp</string>
+
+
+    <string name="help_thermostat">"Det är möjligt att namnge dina termostater t.ex. efter placering.
+>Första gången du loggar in på en termostat kommer namnet bestå av ett nummer, som kontrollenheten automatiskt har tilldelat den. Genom att trycka på detta nummer får du möjlighet att ändra namnet.
+> Temperaturen ställs in genom att trycka på pilarna upp / ner, med ett intervall på 0,5 grader.
+> Det är möjligt att välja ett av de förinställda tidsprogrammen, genom ett enkelt tryck på det önskade programmet. Det är endast möjligt att ändra tidsprogrammet på Touchline termostaten, inte via Appen.
+När du trycker "ok" skickas ändringarna från Appen till kontrollenheten."</string>
+
+
+      <string name="help_user">"Mobil nr. / Användar ID är en kod som portalservern använder för att indentifiera varje kontrollenhet. Om man ändrar användar ID, blir det ändrat på portalservern också, vilket gör att alla kontrollenheter med samma användar ID och lösenord blir uppdaterade på en gång.
+Man ska vara uppmärksam på at en ändring kommer att medföra att andra användare på samma kontrollenhet kommer att mista tillgång till kontrollenheten tills det att dom har ändrat "Användar ID" och lösenord.
+Om "Användar ID" har blivit ändrat kommer andra användare att se en varningstriangel bredvid de kontrollenheter som dom har haft tillgång till innan. Om de provar att logga in kommer de bli ombedda att skriva in nytt "Användar ID" och lösenord.
+Om det finns flera kontrollenheter med samma "Användar ID" och "Lösenord" kommer det en lista där man kan välja vilken kontrollenhet man vill ansluta till, avsluta med "ok"</string>
+
+
+    <string name="help_triangle">"Varningstriangeln indikerar att det kan vara problem med en kontrollenhet eller termostat.
+> Det saknas kontakt till en eller flera termostater, kontrollera batterierna i termostaterna som visar fel på komunikationen i displayen. För vägledning hänvisas till manualer på vår hemsida (www.roth-nordic.se).
+> Kontrollera om det har blivit någon ändring av lösenord eller användar ID på kontrollenheten.
+> Om termostaten fortfarande tappar kontakten kan det vara nödvändigt att hitta en annan placering för bättre signal."</string>
+
+
+      <string name="help_password">"Glömt lösenord:
+>Om man har glömt sitt "Lösenord" kan man få det skickat till sig via den e-post adress som är registrerad i Appen. Av säkerhetsskäl ska man ange sitt "Namn" och "Användar ID" för att få sitt lösenord. Om du inte har angett ditt namn eller e-postadress under den första inloggningen, finns ingen möjlighet att få ut sitt lösenord, och man får göra en ny registrering av kontrollenheten. Detta kan endast göras genom att man skickar ett mail till "Touchline_PW_reset@roth-industries.com" och uppger UID nummret på kontrollenheten-
+För att hitta UID nummret ska man vara på samma WiFi nätverk som kontrollenheten och logga in som "Ny användare", fyll i registreringen med namn,e-post och telefon/användar ID, och tryck på ok. Välj sedan den kontrollenhet som ska bli registrerad genom att trycka på den. UID nummret kommer därefter fram som en en nedtonad text/nr. (Exempel: 51FF6C064965525743540181).
+\n Byt lösenord:
+>Om man har utfört en korrekt registrering av kontrollenheten med namn, e-post och mobil nr./Användar ID man kan ändra sitt "Lösenord", Det kan bara göras genom att man får en "återsällnings kod" vilket tar bort det gamla lösenordet från portal servern.
+
+Ny återställnings kod
+>När man ber om en återställnings kod, skickar appen en förfrågan till portal servern, som genererar en kod som skickat till den angivna e-post adressen, denna koden ska skrivas in manuellt.
+När man mottagit och skrivit in koden, kan man skapa ett nytt lösenord, standardlösenordet är alltid 1234.
+Man ska vara uppmärksam på att om det är flera användare av kontrollenheten, ska dessa användare ändra lösenordet vid nästa inloggning genom att trycka på varningstriangeln, och skriva in användar ID och det nya lösenordet."</string>
+
+
+    <string name="help_controller">"För att göra din nya App mer användarvänlig, rekommenderar vi att du fyller i "namn", "e-post" och "Användar ID". Detta används om du byter telefon eller om fler människor använder samma kontrollenhet.
+> Namnge kontrollenheten för lättare överblick, speciellt om man har fler anläggningar / installationer i sin App. Man kan inte använda samma namn på flera kontrollenheter. Namnen kan vara tex. "Hemma", "Sommarhus" ...
+> Den grafiska översikten visar hur många kontrollenheter som är anslutna till Appen, det är inte möjligt att göra ändringar på denna sidan."</string>
+
+
+    <string name="help_app">"Om du har problem med att ansluta till din Touchline kontrollenhet kan det vara följande orsaker:
+> Din kontrollenhet är inte satt som "Master". Tryck in knappen "Master" på kontrollenheten i ca. 10 sekunder till den slutar att blinka. För vägledning hänvisas till vår hemsida (www.roth-nordic.se)
+> Du är inte på samma WiFi nätverk som kontrollenheten du försöker ansluta till."</string>
+
+
+    <array name="help_menu_items">
+        <item>Systeminställningar</item>
+        <item>Välj driftläge</item>
+        <item>Ändra namn på kontrollenhet</item>
+        <item>Redigera lista på kontrollenheter</item>
+        <item>Kontrollenhet info</item>
+        <item>App inställningar</item>
+        <item>Ändra användar ID</item>
+        <item>Ändra lösenord</item>
+        <item>Användarinställningar</item>
+        <item>Termostat inställningar</item>
+        <item>Ändra namn på termostat</item>
+        <item>Termostat översikt</item>
+        <item>Hjälp</item>
+        <item>Lösenord</item>
+        <item>Kontrollenhet</item>
+        <item>App</item>
+        <item>Användar ID</item>
+        <item>Termostat</item>
+    </array>
+    <string name="title_activity_controller_operating_modes"></string>
+    <string name="title_activity_name_controller">Namnge kontrollenhet</string>
+    <string name="title_activity_change_user_id">Ändra användar ID</string>
+    <string name="title_activity_user_setup">Användarinställningar</string>
+    <string name="title_activity_change_thermostat_name">Ändra namn på termostat</string>
+    <string name="title_activity_thermostat_overview">Översikt av termostater</string>
+    <string name="title_activity_thermostat_overview_advanced"></string>
+
+    <string name="title_activity_controller_info">Kontrollenhet info</string>
+    <string name="title_activity_user_login">Användarlogin</string>
+    <string name="title_activity_change_password">Ändra lösenord</string>
+    <string name="title_activity_no_wlan">Inget WiFi</string>
+    <string name="title_activity_no_internet">Ingen internetanslutning</string>
+    <string name="title_activity_non_existing_user_id">Kontrollenhet</string>
+    <string name="title_activity_controller_already_registred">Kontrollenhet</string>
+    <string name="title_activity_password_sent_email"></string>
+    <string name="title_activity_reset_sent_email">" "</string>
+    <string name="title_activity_enter_reset_code">" "</string>
+    <string name="title_activity_change_default_password">" "</string>
+    <string name="title_activity_wrong_pass">""</string>
+    <string name="touchline">Touchline</string>
+    <string name="name">Namn:</string>
+    <string name="error">Möjliga orsaker till felmeddelande.</string>
+    <string name="ok">OK</string>
+    <string name="send_reset_code">Skicka återställningskod</string>
+    <string name="help_thermostats">Hjälpskärm för termostater</string>
+    <string name="help_triangle_top">Hjälpskärm för anslutningsproblem</string>
+    <string name="help_ID">Hjälpskärm för användar ID</string>
+    <string name="usid">Användar ID</string>
+    <string name="email">E-post:</string>
+    <string name="extra1">Återställningskoden som skickades per e-post ska skrivas in i fältet ovan. Använd endast stora bokstäver.</string>
+    <string name="help_app_top">Hjälpskärm för App</string>
+    <string name="help_control">Hjälpskärm för kontrollenhet</string>
+    <string name="help_pass">Hjälpskärm för lösenord</string>
+    <string name="new_user">Ny användare</string>
+    <string name="name_unit">Namnge\n kontrollenheten</string>
+    <string name="controller_registred">Kontrollenheten är redan registrerad</string>
+    <string name="no_inet">Ingen internet anslutning</string>
+    <string name="no_wlan">Ingen WiFi anslutning \n\n\n Anslut till samma WiFi nätverk som kontrollenheten för att göra en ny registrering</string>
+    <string name="no_uid">Användar ID finns inte</string>
+    <string name="reset_email">Återställningskoden skickas till din e-post</string>
+    <string name="incorrect_pass">Fel lösenord</string>
+    <string name="existing_uid">Existerande användare</string>
+    <string name="pass_sent_email">Lösenordet har blivit skickat till din e-post</string>
+    <string name="old_uid">Gammalt\n Användar ID</string>
+    <string name="name_controller">Kontrollenhetens\n namn</string>
+    <string name="lang">Språk</string>
+    <string name="mobile_no">Mobil nr. / Användar ID</string>
+    <string name="default_pass">Standard\nlösenord</string>
+    <string name="enter_reset">Skriv in\nåterställningskoden</string>
+    <string name="pass">Lösenord</string>
+    <string name="back">Tillbaka</string>
+    <string name="change_mode">Välj driftsläge</string>
+    <string name="old_pass">Gammalt\n lösenord</string>
+    <string name="help_text">Hjälptext</string>
+    <string name="save_pass">Spara lösenord</string>
+    <string name="default_pass_enter">Ange standardlösenord: 1234</string>
+    <string name="new_uid">Ny användare\n ID</string>
+    <string name="confirm_pass">Bekräfta\n lösenord</string>
+    <string name="new_pass">Nytt\n lösenord</string>
+    <string name="remember_pass">Spara lösenord</string>
+    <string name="ready_connect">"- Klar för anslutning"</string>
+    <string name="loading">Laddar, Vänligen vänta...</string>
+
+    <string name="roomname">Rumsnamn:</string>
+    <string name="login">Logga in</string>
+    <string name="edit_controller_list">Redigera lista på kontrollenheter</string>
+
+</resources>

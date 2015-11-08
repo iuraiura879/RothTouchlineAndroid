@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">Roth Touchline</string>
+
+    <string name="intro_video"><u>Vídeo de introducción</u></string>
+    <string name="request_password"><u>Solicitar contraseña nueva</u></string>
+
+    <string name="title_activity_start">Roth Touchline</string>
+    <string name="action_settings">Ajustes</string>
+
+    <string name="login_help">"Para establecer una conexión con el módulo de conexiones Touchline, deben cumplirse los siguientes requisitos:
+> El módulo de conexiones debe haberse configurado como "maestro".  En el caso de que no se ilumine el LED "maestro" en el módulo de conexiones, mantenga pulsada la tecla "maestro" en el módulo de conexiones durante aprox. 10 segundos hasta que el LED maestro deje de parpadear. Véase también el manual de instrucciones del Touchline en nuestra Web (http://www.roth-werke.de)
+ > Debe conectarse con su teléfono móvil a la misma red WLAN (red de área local inalámbrica) que la del módulo de conexiones con el que quiere establecer la conexión."</string>
+    <string name="title_activity_search">Buscar ...</string>
+    <string name="title_activity_registe_controller">Módulos de conexiones encontrados</string>
+    <string name="title_activity_help">Ayuda</string>
+
+
+    <string name="help_thermostat">"Puede especificar un nombre para cada termostato, p. ej. en función de su ubicación.
+> Al conectarse por primera vez a un termostato, se mostrará un número asignado automáticamente por el módulo de conexiones. Seleccionando este número, podrá cambiar el nombre.
+> El ajuste de la temperatura se realiza mediante las teclas de dirección hacia arriba/abajo en intervalos de 0,5 grados.
+> También puede seleccionar alguno de los programas preajustados simplemente pulsando el botón correspondiente. El programa de tiempo solo puede cambiarse desde el termostato Touchline, y no a través de la App.
+La App enviará un comando al módulo de conexiones solo cuando confirme con "OK".
+"</string>
+
+
+      <string name="help_user">"El número de teléfono móvil/ID de usuario es un código utilizado por el portal de aplicaciones para la identificación de los diferentes módulos de conexiones.  Al efectuar un cambio en la ID de usuario, éste se efectuará también en el portal de aplicaciones. En consecuencia también se actualizarán simultáneamente todos los módulos de conexiones con la misma ID de usuario. Tenga en cuenta que la realización de un cambio ocasionará que otros usuarios no puedan volver a conectarse al módulo de conexiones hasta que también ellos cambien la ID de usuario la próxima vez que se conecten.
+Si se ha cambiado la "ID de usuario", los demás usuarios verán un triángulo de advertencia junto a los módulos de conexiones a los que previamente tenían acceso. Al intentar conectarse a los módulos se les solicitará introducir la nueva "ID de usuario" y la contraseña.                                                     En caso de que existan varios módulos con la misma "ID de usuario" y la misma contraseña, aparecerá una lista desde la que pueden seleccionarse los módulos a los que se desea acceder. Confirme con "OK".
+"</string>
+
+
+    <string name="help_triangle">"El triángulo de advertencia indica que existe un problema con un módulo de conexiones o un termostato.
+> Si no es posible establecer una conexión con uno o varios termostatos, compruebe las pilas de aquellos termostatos que indican un error de comunicación en la pantalla. Véase también el manual de instrucciones del Touchline en nuestra web (http://www.roth werke.de).
+> Compruebe si se ha cambiado la ID de usuario o la contraseña del módulo de conexiones.
+> Si se interrumpe repetidamente la conexión con el termostato, es recomendable colocar el termostato en otro lugar con una mejor señal."</string>
+
+
+      <string name="help_password">"Contraseña olvidada:
+> Si ha olvidado su "contraseña", puede solicitar que se le envíe a la dirección de correo electrónico que facilitó al registrarse en la App.  Por motivos de seguridad deberá introducir su "nombre" y la "ID de usuario" para obtener la contraseña. Si la primera vez que inició la sesión no introdujo ningún nombre ni ninguna dirección de correo electrónico, tampoco podrá restablecer su contraseña y, por lo tanto, deberá volver a registrarse en el módulo de conexiones. Para ello debe enviar un correo electrónico a la dirección "Touchline_PW_reset@Roth-industries.com", indicando el número UID del módulo de conexiones.  Para localizar el UID debe estar conectado a la misma red WLAN que la del módulo de conexiones, e iniciar la sesión como “Usuario nuevo”. Rellene el formulario de registro, indicando su nombre, dirección de correo electrónico y número de teléfono/ID de usuario y, seguidamente, pulse "OK". "Seleccione el módulo de conexiones. En la siguiente pantalla aparecerá el número UID como texto/n.º con fondo sombreado. (Ejemplo: 51FF6C064965525743540181).                                                                                                                                                                                                             \n Cambiar contraseña:
+> Una vez que haya registrado correctamente el módulo de conexiones, indicando nombre, correo electrónico y número de teléfono móvil/ID de usuario, podrá cambiar la "Contraseña". Para ello, previamente deberá recibir un "código de restablecimiento" con el que podrá restablecer al valor predeterminado su contraseña para el servidor de aplicaciones.
+
+Código de restablecimiento nuevo:
+> Al solicitar un código de restablecimiento, la App envía automáticamente una petición al servidor de aplicaciones, que generará un código que seguidamente se enviará a la  dirección de correo electrónico del usuario y, posteriormente, se introducirá manualmente.
+Después de recibir e introducir el código de restablecimiento puede introducirse una contraseña nueva. La  contraseña por defecto siempre es 1234.
+Si el módulo de conexiones va a ser utilizado por más de un usuario, todos los usuarios deberán realizar una actualización la próxima vez que inicien la sesión. Para ello, deben pulsar sobre el triángulo de advertencia e introducir su ID de usuario y la contraseña nueva.
+"</string>
+
+    <string name="help_controller">"Para un manejo más cómodo, recomendamos especificar el "nombre", "E-Mail" e "ID de usuario". Estos datos son necesario si, por ejemplo, cambiamos de teléfono móvil o si un mismo módulo de conexiones va a ser utilizado por varios usuarios.
+> La denominación del módulo de conexiones solo es necesaria para una mayor claridad, en especial si se han instalado varios equipos / instalaciones en la App. Sin embargo, no puede usarse el mismo nombre para diferentes módulos de conexiones. Puede usar, por ejemplo, la denominación "mi casa", "casa de vacaciones", etc.
+> La interfaz gráfica de usuario muestra el número de módulos de conexiones conectados con la App. No es posible realizar cambios en esta pantalla.
+"</string>
+
+    <string name="help_app">"Los problemas que pueden aparecer a la hora de establecer una conexión con el módulo de conexiones Touchline pueden deberse a los siguientes motivos:
+> El módulo de conexiones debe configurarse como "maestro". En caso de que no se ilumine el LED "maestro" en el módulo de conexiones, mantenga pulsada la tecla "maestro" en el módulo de conexión durante aprox. 10 segundos hasta que el LED maestro deje de parpadear. Véase también el manual de instrucciones del Touchline en nuestra web (http://www.roth-werke.de)
+> No está conectado a la misma red WLAN que la del módulo de conexiones con el que quiere establecer la conexión."</string>
+
+
+    <array name="help_menu_items">
+        <item>Ajustes del sistema</item>
+        <item>Selección del modo de funcionamiento</item>
+        <item>Cambiar el nombre del módulo de conexiones</item>
+        <item>Editar la lista de módulos de conexiones</item>
+        <item>Info del sistema</item>
+        <item>Ajustes de la App</item>
+        <item>Cambiar la ID de usuario</item>
+        <item>Cambiar la contraseña</item>
+        <item>Configuración de usuario</item>
+        <item>Ajustes del termostato</item>
+        <item>Cambiar el nombre del termostato</item>
+        <item>Vista general de termostatos</item>
+        <item>Ayuda</item>
+        <item>Contraseña</item>
+        <item>Módulo de conexiones</item>
+        <item>App</item>
+        <item>ID de usuario</item>
+        <item>Termostato</item>
+    </array>
+    <string name="title_activity_controller_operating_modes"></string>
+    <string name="title_activity_name_controller">Nombre del módulo de conexiones</string>
+    <string name="title_activity_change_user_id">Cambiar la ID de usuario</string>
+    <string name="title_activity_user_setup">Configuración de usuario</string>
+    <string name="title_activity_change_thermostat_name">Cambiar el nombre del termostato</string>
+    <string name="title_activity_thermostat_overview">Vista general de termostatos</string>
+    <string name="title_activity_thermostat_overview_advanced"></string>
+
+    <string name="title_activity_controller_info">Info del sistema</string>
+    <string name="title_activity_user_login">Inicio de sesión del usuario</string>
+    <string name="title_activity_change_password">Cambiar la contraseña</string>
+    <string name="title_activity_no_wlan">No hay WLAN</string>
+    <string name="title_activity_no_internet">No hay conexión a Internet</string>
+    <string name="title_activity_non_existing_user_id">Módulo de conexiones</string>
+    <string name="title_activity_controller_already_registred">Módulo de conexiones</string>
+    <string name="title_activity_password_sent_email"></string>
+    <string name="title_activity_reset_sent_email">" "</string>
+    <string name="title_activity_enter_reset_code">" "</string>
+    <string name="title_activity_change_default_password">" "</string>
+    <string name="title_activity_wrong_pass">""</string>
+    <string name="touchline">Touchline</string>
+    <string name="name">Nombre:</string>
+    <string name="error">Causas posibles de los mensajes de error.</string>
+    <string name="ok">OK</string>
+    <string name="send_reset_code">Enviar código de restablecimiento:</string>
+    <string name="help_thermostats">Menú de ayuda de los termostatos</string>
+    <string name="help_triangle_top">Ayuda en caso de problemas de conexión</string>
+    <string name="help_ID">Ayuda de la ID de usuario</string>
+    <string name="usid">ID de usuario</string>
+    <string name="email">E-Mail:</string>
+    <string name="extra1">El código de restablecimiento enviado por correo electrónico debe introducirse en el campo de arriba. Por favor, tenga en cuenta que todos los caracteres deben escribirse en mayúsculas.</string>
+    <string name="help_app_top">Ayuda de la App</string>
+    <string name="help_control">Ayuda del módulo de conexiones</string>
+    <string name="help_pass">Ayuda para la contraseña</string>
+    <string name="new_user">Usuario nuevo</string>
+    <string name="name_unit">Cambiar el nombre\n del módulo de conexiones</string>
+    <string name="controller_registred">Este módulo de conexiones ya ha sido registrado</string>
+    <string name="no_inet">No hay conexión a Internet</string>
+    <string name="no_wlan">No hay una conexión WLAN \n\n\n Para realizar un registro nuevo, cree una conexión a la misma red WLAN en la que se encuentra el módulo de conexiones.</string>
+    <string name="no_uid">No existe una ID de usuario</string>
+    <string name="reset_email">Se enviará el código de restablecimiento a su dirección de correo electrónico.</string>
+    <string name="incorrect_pass">Contraseña incorrecta</string>
+    <string name="existing_uid">Usuario existente</string>
+    <string name="pass_sent_email">Se enviará la contraseña a su dirección de correo electrónico.</string>
+    <string name="old_uid">ID de usuario\n antigua</string>
+    <string name="name_controller">Nombre del\n módulo de conexiones</string>
+    <string name="lang">Idioma</string>
+    <string name="mobile_no">Número de teléfono móvil/ID de usuario</string>
+    <string name="default_pass">Contraseña\n por defecto</string>
+    <string name="enter_reset">Introducir el\n código de restablecimiento</string>
+    <string name="pass">Contraseña</string>
+    <string name="back">Volver</string>
+    <string name="change_mode">Selección del modo de funcionamiento</string>
+    <string name="old_pass">Contraseña\n antigua</string>
+    <string name="help_text">Texto de ayuda</string>
+    <string name="save_pass">Guardar contraseña</string>
+    <string name="default_pass_enter">Introducir contraseña por defecto: 1234</string>
+    <string name="new_uid">ID de usuario\n nueva</string>
+    <string name="confirm_pass">Repetir\n contraseña</string>
+    <string name="new_pass">Contraseña\n nueva</string>
+    <string name="remember_pass">Guardar contraseña</string>
+    <string name="ready_connect">"- Listo para la conexión"</string>
+    <string name="loading">Por favor, espere...</string>
+
+    <string name="roomname">Nombre de\nla habitación</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="edit_controller_list">Editar la lista de módulos de conexiones</string>
+
+</resources>

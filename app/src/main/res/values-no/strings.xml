@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">Roth Touchline</string>
+
+    <string name="intro_video"><u>Intro video</u></string>
+    <string name="request_password"><u>Bestill nytt passord</u></string>
+
+    <string name="title_activity_start">Roth Touchline</string>
+    <string name="action_settings">Innstillinger</string>
+
+    <string name="login_help">"For å kunne opprette kontakt med din Touchline kontrollenhet, er det viktig at nedenstående krav er oppfylt:
+> Kontrollenheten skal være satt som "Master". Lysdioden på kontrollenheten skal lyse i "Master". Hvis ikke,  hold "Master" knappen på kontrollenheten inne i ca. 10 sekunder til den slutter å blinke. Se evt. i veiledningen for Touchline på Roth`s hjemmeside (http://roth-nordic.no/files/Touchline_til_iphone_vejledningNO.pdf)
+> Du skal være på samme WLAN som den kontrollenheten du ønsker å opprette forbindelse med, og telefonen din skal være koblet til via samme WLAN.
+"</string>
+    <string name="title_activity_search">Søker…</string>
+    <string name="title_activity_registe_controller">Kontrollenheter funnet</string>
+    <string name="title_activity_help">Hjelp</string>
+
+
+    <string name="help_thermostat">"Det er mulighet for å navngi romtermostatene dine, f.eks. etter plassering.
+> Første gang du logger inn på en termostat vil det stå et nummer som kontrollenheten automatisk har tildelt. Ved å trykke på dette nummeret  får du mulighet for å endre navnet.
+> Temperaturen stilles ved å trykke pil opp / ned med et intervall på 0,5 grader.
+> Det er mulig å velge et av de forprogrammerte programmene ved å trykke på det ønskede program. Det er kun mulig å endre tidsprogrammet på Touchline termostaten, ikke via Appen.
+Først når man trykker "ok" sender Appen beskjed til kontrollenheten."</string>
+
+
+      <string name="help_user">"Mobil nr. / Bruker ID er en kode som portalserveren bruker til å identifisere den enkelte kontrollenhet. Hvis man endrer bruker ID, endres det også på portalserveren. Det gjør at alle kontrollenheter med samme bruker ID og passord blir oppdatert med en gang.
+Man skal være oppmerksom på at en endring vil medføre at andre brukere på samme kontrollenheter vil miste sin tilgang, inntil de har endret "Bruker ID" til det nye ved neste log-in.
+Hvis "Bruker ID" har blitt endret vil andre brukere se en varselstrekant ved de kontrollenheter som de tidligere har hatt tilgang til. Hvis de prøver å logge inn vil de bli bedt om å taste inn det nye "Bruker ID" og "passord". Hvis det er flere kontrollenheter med samme "Bruker ID" og "passord", vil det komme opp en liste hvor man kan velge hvilke kontrollenheter man ønsker adgang til, avslutt med "ok" "</string>
+
+
+    <string name="help_triangle">"Varseltrekanten indikerer at det kan være problemer med en kontrollenhet eller termostat.
+> Det er ikke kontakt med en eller flere termostater. Kontroller batteriene i termostatene som viser feil på kommunikasjon i displayet. Se evt. i veiledningen for Touchline på Roth`s hjemmeside (http://roth-nordic.no/files/Touchline_hurtigveiledning.pdf).
+> Kontroller om det har skjedd en endring av passord eller bruker ID på kontrollenheten.
+> Dersom termostaten gjentatte ganger mister forbindelsen kan det være nødvendig å finne en ny plassering for å få bedre signal."</string>
+
+
+      <string name="help_password">"Glemt passord:
+> Dersom du har glemt  "passord" kan man få det tilsendt via e-mail adressen som er registrert i Appen. Av sikkerhetsmessige grunner skal man taste inn  "navn" og "Bruker ID" for å få tilsendt passordet sitt. Hvis man ikke har tastet inn navn eller e-mail under første innlogging,  er det ikke mulig å få  passord på nytt. Da må man foreta en ny registrering av kontrollenheten. dette kan kun gjøres ved å sende en mail til "Touchline_PW_reset@roth-industries.com" og oppgi UID nummeret på kontrollenheten. For å finne UID nummeret skal man være på samme WLAN som kontrollenheten og logge på som "ny bruker". Fyll ut  registrering med navn, e-mail og telefon nr/ Bruker ID, og trykk ok. Deretter velger man den kontrollenheten som skal registreres ved å trykke på den. UID nr. fremkommer deretter på det neste skjermbilde som en nedtonet tekst/nr. (eksempel:
+51FF6C064965525743540181).
+\n Bytt passord:
+Hvis man har utført en korrekt registrering av en kontrollenhet med navn, e-mail og telefon nr/bruker ID kan man endre passordet sitt, men det kan kun gjøres ved å få tilsendt en "reset kode" som fjerner det gamle passordet fra portalserveren.
+
+Ny reset kode:
+> Når du ber om en reset kode så sender Appen automatisk en forespørsel til portalserveren, som genererer en kode som sendes i retur til brukerens e-mail, denne koden skal tastes inn manuelt.
+Når du har mottatt og tastet inn reset koden, kan man opprette nytt passord. Default passord er alltid 1234.
+Vær oppmerksom på at hvis det er flere brukere på kontrollenheten så skal disse brukere i ettertid foreta en oppdatering ved neste innlogging ved å trykke på varseltrekanten, og taste inn bruker ID og det nye passordet."</string>
+
+
+    <string name="help_controller">"For å gjøre din nye App mer brukervennlig anbefaler vi at du utfyller "Navn", E-mail og "Bruker ID". Dette brukes i forbindelse med at man f.eks. ønsker å skifte telefon eller hvis det er flere som skal ha tilgang til samme kontrollenhet.
+> Navnsetting av kontrollenheten er kun for å for å forenkle oversikten, spesielt hvis man har flere anlegg/ installasjoner på Appen. Man kan ikke bruke samme navn på flere kontrollenheter. Navnsettingen kunne f.eks. være - "hjemme", "hytta"...
+> Den grafiske oversikten viser antallet av kontrollenheter som er tilkoblet Appen. Det er ikke mulig å foreta endringer fra denne skjermen."</string>
+
+
+    <string name="help_app">"Hvis du har problemer med å oppnå kontakt med din Touchline kontrollenhet kan det skyldes følgende:
+>Din kontrollenhet er ikke satt i "Master mode",  hold "Master" knappen på Touchline kontrollenheten nede i ca. 10 sekunder inntil det slutter å blinke. Se evt. i veiledningen for Touchline på Roth`s hjemmeside (http://roth-nordic.no/files/Touchline_til_iphone_vejledningNO.pdf)
+>Du er ikke på samme WLAN som den kontrollenheten som du ønsker å opprette kontakt med."</string>
+
+
+    <array name="help_menu_items">
+        <item>System innstillinger</item>
+        <item>Velg driftsmodus</item>
+        <item>Skift navn på kontrollenhet</item>
+        <item>Rediger liste av kontrollenheter</item>
+        <item>System info</item>
+        <item>App innstillinger</item>
+        <item>Bytt bruker ID</item>
+        <item>Bytt passord</item>
+        <item>Bruker setup</item>
+        <item>Termostat innstillinger</item>
+        <item>Bytt navn på romtermostat</item>
+        <item>Oversikt over romtermostater</item>
+        <item>Hjelp</item>
+        <item>Passord</item>
+        <item>Kontrollenhet</item>
+        <item>App</item>
+        <item>Bruker ID</item>
+        <item>Termostat</item>
+    </array>
+    <string name="title_activity_controller_operating_modes"></string>
+    <string name="title_activity_name_controller">Navn på kontrollenhet</string>
+    <string name="title_activity_change_user_id">Bytt bruker ID</string>
+    <string name="title_activity_user_setup">Bruker setup</string>
+    <string name="title_activity_change_thermostat_name">Bytt navn på romtermostat</string>
+    <string name="title_activity_thermostat_overview">Oversikt over romtermostater</string>
+    <string name="title_activity_thermostat_overview_advanced"></string>
+
+    <string name="title_activity_controller_info">System info</string>
+    <string name="title_activity_user_login">Bruker innlogging </string>
+    <string name="title_activity_change_password">Bytt passord</string>
+    <string name="title_activity_no_wlan">Ingen WLAN</string>
+    <string name="title_activity_no_internet">Ingen internett forbindelse</string>
+    <string name="title_activity_non_existing_user_id">Kontrollenhet</string>
+    <string name="title_activity_controller_already_registred">Kontrollenhet</string>
+    <string name="title_activity_password_sent_email"></string>
+    <string name="title_activity_reset_sent_email">" "</string>
+    <string name="title_activity_enter_reset_code">" "</string>
+    <string name="title_activity_change_default_password">" "</string>
+    <string name="title_activity_wrong_pass">""</string>
+    <string name="touchline">Touchline</string>
+    <string name="name">Navn:</string>
+    <string name="error">Mulige årsaker til feilmeldinger.</string>
+    <string name="ok">Ok</string>
+    <string name="send_reset_code">Send reset kode</string>
+    <string name="help_thermostats">Hjelp til romtermostater</string>
+    <string name="help_triangle_top">Hjelp til problemer med tilkoblingen</string>
+    <string name="help_ID">Hjelp til bruker ID</string>
+    <string name="usid">Bruker ID</string>
+    <string name="email">E-mail:</string>
+    <string name="extra1">I feltet her skal du taste inn reset koden som er tilsendt din e-mail. Vær oppmerksom på at alle bokstaver skal være store.</string>
+    <string name="help_app_top">Hjelp til App</string>
+    <string name="help_control">Hjelp til kontrollenhet</string>
+    <string name="help_pass">Hjelp til passord</string>
+    <string name="new_user">Ny bruker</string>
+    <string name="name_unit">Navngi\n kontrollenhet</string>
+    <string name="controller_registred">Kontrollenheten er allerede registrert</string>
+    <string name="no_inet">Ingen internett forbindelse</string>
+    <string name="no_wlan">Ingen WLAN forbindelse \n\n\n Opprett forbindelse til samme WLAN som kontrollenheten  for å foreta ny registrering </string>
+    <string name="no_uid">Bruker ID finnes ikke</string>
+    <string name="reset_email">Reset koden blir sendt til din e-mail.</string>
+    <string name="incorrect_pass">Feil passord</string>
+    <string name="existing_uid">Eksisterende bruker</string>
+    <string name="pass_sent_email">Passord blir sendt til din e-mail.</string>
+    <string name="old_uid">Gammelt\n bruker ID</string>
+    <string name="name_controller">Kontrollenhetens\n bruker ID</string>
+    <string name="lang">Språk</string>
+    <string name="mobile_no">Mobil nr./ bruker ID.</string>
+    <string name="default_pass">Default\n passord</string>
+    <string name="enter_reset">Tast inn\n reset kode</string>
+    <string name="pass">Passord</string>
+    <string name="back">Tilbake</string>
+    <string name="change_mode">Velg driftsmodus</string>
+    <string name="old_pass">Gammelt\n passord</string>
+    <string name="help_text">Hjelpetekst</string>
+    <string name="save_pass">Lagre passord</string>
+    <string name="default_pass_enter">Tast inn default passord: 1234</string>
+    <string name="new_uid">Ny bruker\n ID</string>
+    <string name="confirm_pass">Gjenta\n passord</string>
+    <string name="new_pass">Nytt\n passord</string>
+    <string name="remember_pass">Lagre passord</string>
+    <string name="ready_connect">"- Klar til registrering"</string>
+    <string name="loading">Vennligst vent</string>
+
+    <string name="roomname">Rom\nnavn:</string>
+    <string name="login">Logg inn</string>
+    <string name="edit_controller_list">Rediger liste av kontrollenheter</string>
+
+</resources>

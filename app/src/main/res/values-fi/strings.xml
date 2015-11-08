@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">Roth Touchline</string>
+
+    <string name="intro_video"><u>Esittely Video</u></string>
+    <string name="request_password"><u>Tilaa uusi salasana</u></string>
+
+    <string name="title_activity_start">Roth Touchline</string>
+    <string name="action_settings">Asetukset</string>
+
+    <string name="login_help">"Jotta iPhone voidaan kytkeä pääohjaimeen, on tärkeää, että seuraavat vaatimukset täyttyvät:
+> Sinun pääohjain on asetettu "Master" yksiköksi.  Pääohjaimen LED merkkivalo "Master" palaa, jos ei, paina yksikön "Master" -painiketta noin 10 sekuntia, kunnes merkkivalo lakkaa vilkkumasta. Katso lisätietoja Touchline oppaasta kotisivuillamme (http://www.roth-nordic.fi/fi/files/Touchline_Manual_FI_2011_12.pdf)
+> Sinun täytyy käyttää samaa WLAN yhteyttä kuin pääohjain jonka haluat liittää ja puhelimesi on kytketty WLAN yhteyteen." </string>
+    <string name="title_activity_search">Etsii...</string>
+    <string name="title_activity_registe_controller">Rekisteröityneet ohjausyksiköt</string>
+    <string name="title_activity_help">Apu</string>
+
+
+    <string name="help_thermostat">"On mahdollista nimetä termostaatit esimerkiksi sijainnin mukaan.
+> Ensimmäisen kerran kun kirjaudut, ohjain on automaattisesti määrittänyt termostaateille numeron. Painamalla numeroa voit muuttaa nimeä.
+> Lämpötila asetetaan painamalla nuolia ylös / alas 0,5 asteen välein.
+> On myös mahdollista valita valmiiksi ohjelmoituja asetuksia, yksinkertaisesti painamalla haluttua ohjelmaa. Ohjelman vaihtaminen on mahdollista vain Touchline termostaatilla, ei Appin kautta.
+Vasta painamalla "ok" App lähettää muutokset ohjausyksikköön. "</string>
+
+
+      <string name="help_user">Mobile no. / User ID is a code that the portal server uses to identify each controlunit. If you change the user ID it will be changed on the portal server, which means that all controlunits with the same user ID and password will be updated with the new User ID at one time.   You should be aware that a change would lead to that other users on the same control units will lose their access until they have changed the "User ID" to the novelty in the next log-in.
+If the "User ID" has been changed, other users will see a warning triangle on the controlunit as they previously had access to. If they try to login, they will be asked to enter the new "User ID" and password.                                                                                                If there are several controlunits with the same "User ID and" Password ", there will be a list, where you can choose which controlunits you want to have access to, press " ok " to confirm.</string>
+
+
+    <string name="help_triangle">"Varoituskolmio osoittaa, että saattaa olla ongelmia ohjausyksikössä tai termostaatissa.
+> Ei ole yhteyttä yhteen tai useampaan termostaattiin, tarkista virheviestiä näyttävän termostaatin paristot. Katso myös Touchlinen käyttöohje sivuillamme (http://www.roth-nordic.fi/fi/files/Touchline_Manual_FI_2011_12.pdf).
+> Tarkista, onko ohjausyksikön salasanan tai käyttäjätunnus muutettu.
+> Jos termostaatti menettää edelleen yhteyden, sinun on ehkä löydettävä uusi paikka paremman signaalin löytämiseksi."</string>
+
+
+      <string name="help_password">"Salasana unohtunut:                                                                                                                                                                            Jos olet unohtanut salasanan voit vastaanottaa sen sovellukseen rekisteröityneeseen sähköpostiosoitteeseen.  Turvallisuus syistä anna "nimi" ja "käyttäjätunnus" salasanan vastaanottamiseksi. Jos et ole kirjoittanut nimesi tai sähköpostiosoitettasi ensimmäisellä kirjautumisella, ei ole mahdollista vastaanottaa salasanaa uudelleen, vaan sinun täytyy tehdä uuden rekisteröinnin ohjausyksikölle.Tämä voidaan tehdä vain lähettämällä ohjausyksikön UID numero sähköpostilla osoitteeseen "Touchline_PW_reset@Roth-industries.com" Löytääksesi UID numeron sovellus pitää olla kytkettynä samaan WLAN yhteyteen kuin ohjausyksikkö ja kirjaudut "uusi käyttäjä". Täydennä rekisteröinti antamalla nimi, sähköpostiosoite sekä puh.nro/käyttäjätunnus ja paina Ok. Valitse sitten rekisteröitävä ohjausyksikkö. UID nro näkyy näytöllä tummennetulla tekstillä/nro. (esim. 51FF6C064965525743540181)                                                                                              \n Vaihda salasana:                                                                                                      > Jos olet tehnyt asianmukainen rekisteröinti ohjausyksikölle, nimi, sähköposti ja puh.nro/käyttäjätunnus,  voit muuttaa "salasana", mutta se voidaan tehdä vain vastaanottamalla "reset koodi", joka poistaa vanhan salasanan portaalista.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           Uusi palautuskoodi:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     > Kun pyydät uutta palatuskoodia sovellus lähettää automaattisesti pyynnön portal palvelimeen joka luo koodin ja lähettää sen käyttäjän  sähköpostiosoitteeseen. Koodi syötettävä manuaalisesti. Kun olet vastaanottanut uuden koodin voit luoda uuden salasanan. Oletussalasana on aina 1234.
+Huomaa, että jos on useita käyttäjiä ohjausyksikölle, nämä käyttäjät täytyy päivittää salasana seuraavalla kirjautumisella klikkaamalla varoituskolmiota ja antaa käyttäjätunnus ja uusi salasana.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  "</string>
+
+
+    <string name="help_controller">"Voit tehdä uuden uuden sovelluksen käyttäjäystävällisemmäksi, suosittelemme, että täytät "Nimi", "sähköposti" ja "Käyttäjätunnus". Tätä käytetään, jos vaihdat puhelimen tai jos useammat ihmiset tarvitsee pääsyn samaan ohjausyksikköön.
+> Ohjausyksikön nimeäminen helpottaa käyttöä, varsinkin jos sinulla on useita tiloja / asennuksia sovelluksella. Kuitenkin, et voi käyttää samaa nimeä usealle ohjausyksikölle. Nimeäminen voi olla esimerkiksi - "koti", "mökki" ... ..
+> Graafinen raportti näyttää  ohjausyksiköiden määrä jotka on liitetty sovellukseen, ei ole mahdollista tehdä muutoksia tässä valikossa."</string>
+
+
+    <string name="help_app">Jos sinulla on ongelmia saada yhteys omalle Touchline ohjausyksikölle se voi johtua seuraavista:
+> Sinun pääohjain ei ole on asetettu "Master" yksiköksi.  Pääohjaimen LED merkkivalo "Master" palaa, jos ei, paina yksikön "Master" -painiketta noin 10 sekuntia, kunnes merkkivalo lakkaa vilkkumasta. Katso lisätietoja Touchline oppaasta kotisivuillamme (http://www.roth-nordic.fi/fi/files/Touchline_Manual_FI_2011_12.pdf)
+>  Et ole kytketty samaan WLAN yhteyteen kuin pääohjain jonka haluat liittää.
+    </string>
+
+
+    <array name="help_menu_items">
+        <item>Järjestelmä asetukset</item>
+        <item>Valitse käyttöalue</item>
+        <item>Vaihda ohjausyksiön nimeä</item>
+        <item>Muokkaa ohjausyksiköiden luetteloa</item>
+        <item>Järjestelmä info</item>
+        <item>Sovelluksen tiedot</item>
+        <item>Vaihda käyttäjätunnus</item>
+        <item>Vaihda salasana</item>
+        <item>Käyttö asetukset</item>
+        <item>Termostaatti asetukset</item>
+        <item>Vaihda termostaatin nimi</item>
+        <item>TTermostaatin yleiskatsaus</item>
+        <item>Apu</item>
+        <item>Salasana</item>
+        <item>Ohjausyksikkö</item>
+        <item>App</item>
+        <item>Käyttäjätunnus</item>
+        <item>Termostaatti</item>
+    </array>
+    <string name="title_activity_controller_operating_modes"></string>
+    <string name="title_activity_name_controller">Ohjausyksikön nimi</string>
+    <string name="title_activity_change_user_id">Vaihda käyttäjätunnus</string>
+    <string name="title_activity_user_setup">Käyttö asetukset</string>
+    <string name="title_activity_change_thermostat_name">Vaihda termostaatin nimi</string>
+    <string name="title_activity_thermostat_overview">Termostaatin yleiskatsaus</string>
+    <string name="title_activity_thermostat_overview_advanced"></string>
+
+    <string name="title_activity_controller_info">Järjestelmä info</string>
+    <string name="title_activity_user_login">Käyttäjän kirjautuminen</string>
+    <string name="title_activity_change_password">Vaihda salasana</string>
+    <string name="title_activity_no_wlan">Ei WLAN</string>
+    <string name="title_activity_no_internet">Ei verkkoyhteyttä</string>
+    <string name="title_activity_non_existing_user_id">Ohjausyksikkö</string>
+    <string name="title_activity_controller_already_registred">Ohjausyksikkö</string>
+    <string name="title_activity_password_sent_email"></string>
+    <string name="title_activity_reset_sent_email">" "</string>
+    <string name="title_activity_enter_reset_code">" "</string>
+    <string name="title_activity_change_default_password">" "</string>
+    <string name="title_activity_wrong_pass">""</string>
+    <string name="touchline">Touchline</string>
+    <string name="name">Nimi:</string>
+    <string name="error">Mahdollisia virheilmoituksia</string>
+    <string name="ok">Ok</string>
+    <string name="send_reset_code">Lähetä palautuskoodi</string>
+    <string name="help_thermostats">Ohje termostaatit</string>
+    <string name="help_triangle_top">Ohje yhteys ongelmat</string>
+    <string name="help_ID">Ohje käyttäjätunnus</string>
+    <string name="usid">Käyttäjätunnus</string>
+    <string name="email">Sähköposti:</string>
+    <string name="extra1">Kirjoita sähköpostiisi lähetetty palatuskoodi yllä olevaan kenttään. Huom. Käytä isoja kirjaimia</string>
+    <string name="help_app_top">Ohje Sovellus</string>
+    <string name="help_control">Ohje Ohjausyksikkö</string>
+    <string name="help_pass">Ohje Salasana</string>
+    <string name="new_user">Uusi käyttäjä</string>
+    <string name="name_unit">Nimeä\n ohjausyksikkö</string>
+    <string name="controller_registred">Ohjausyksikkö on jo rekisteröity</string>
+    <string name="no_inet">Ei verkkoyhteyttä</string>
+    <string name="no_wlan">Ei WLAN yhteyttä \n\n\n Yhdistä samaan WLAN yhteyteen kuin ohjausyksikkö ennen uudelleen rekisteröintiä</string>
+    <string name="no_uid">Käyttäjätunnus ei ole olemassa</string>
+    <string name="reset_email">Palautuskoodi on lähetetty sähköpostiin</string>
+    <string name="incorrect_pass">Vanhentunut salasana</string>
+    <string name="existing_uid">Käyttäjätunnus käytössä</string>
+    <string name="pass_sent_email">Käyttäjätunnus lähetetty sähköpostiin</string>
+    <string name="old_uid">Vanhentunut\nkäyttäjätunnus</string>
+    <string name="name_controller">Ohjausyksiön\nnimi</string>
+    <string name="lang">Kieli</string>
+    <string name="mobile_no">Puh nr./Käyttäjätunnus</string>
+    <string name="default_pass">Oletus\n salasana</string>
+    <string name="enter_reset">Syötä\n palautuskoodi</string>
+    <string name="pass">Salasana</string>
+    <string name="back">Takaisin</string>
+    <string name="change_mode">Valitse käyttöalue</string>
+    <string name="old_pass">Vanha\nsalasana</string>
+    <string name="help_text">Ohjeteksti</string>
+    <string name="save_pass">Tallenna salasana</string>
+    <string name="default_pass_enter">Anna oletussalasana: 1234</string>
+    <string name="new_uid">Uusi käyttäjä</string>
+    <string name="confirm_pass">Vahvista\nsalasana</string>
+    <string name="new_pass">Uusi\n alasana</string>
+    <string name="remember_pass">Tallenna salasana</string>
+    <string name="ready_connect">" - Valmis reksteröytyä"</string>
+    <string name="loading">Odota...</string>
+
+    <string name="roomname">Huoneen nimi:</string>
+    <string name="login">Kirjaudu sisään</string>
+    <string name="edit_controller_list">Muokkaa ohjausyksiköiden luetteloa</string>
+
+</resources>

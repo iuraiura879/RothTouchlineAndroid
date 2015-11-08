@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">Roth Touchline</string>
+
+    <string name="intro_video"><u>Intro video</u></string>
+    <string name="request_password"><u>Neues Passwort anfordern</u></string>
+
+    <string name="title_activity_start">Roth Touchline</string>
+    <string name="action_settings">Einstellungen</string>
+
+    <string name="login_help">"Um eine Verbindung zum Touchline-Anschlussmodul zu bekommen, müssen folgende Anforderungen erfüllt sein:
+> Das Anschlussmodul muss als "Master" eingerichtet sein. Falls die "Master"-LED am Anschlussmodul nicht leuchtet, halten Sie die "Master”-Taste am Anschlussmodul ca. 10 Sekunden gedrückt, bis die Master-LED aufhört zu blinken. Siehe hierzu auch die Bedienungsanleitung zur Touchline auf unserer Homepage (http://www.roth-werke Link einfügen)
+ > Sie müssen sich mit Ihrem Mobiltelefon im gleichen WLAN Netzwerk befinden, wie das Anschlussmodul, zu dem Sie eine Verbindung einrichten möchten."</string>
+    <string name="title_activity_search">Suche ...</string>
+    <string name="title_activity_registe_controller">Gefundene Anschlussmodule</string>
+    <string name="title_activity_help">Hilfe</string>
+
+
+    <string name="help_thermostat">"Sie können Namen für die einzelnen Funkraumbediengeräte vergeben, z. B. nach ihrer Platzierung.
+> Wenn Sie sich das erste Mal in ein Raumbediengerät einloggen, erscheint eine Nummer, die vom Anschlussmodul automatisch zugeteilt wurde. Wenn Sie diese Nummer auswählen, können Sie den Namen ändern.
+> Die Temperatureinstellung erfolgt mithilfe der Tasten Pfeil-nach-oben/Pfeil-nach-unten mit einem Intervall von 0,5 Grad.
+> Sie können auch eines der vorprogrammierten Programme wählen, indem Sie einfach auf die zugehörige Taste tippen. Das Zeitprogramm kann nur im Touchline-Raumbediengerät, nicht über die App geändert werden. Erst wenn Sie auf "OK" tippen, sendet die App einen Befehl an das Anschlussmodul.
+"</string>
+
+
+      <string name="help_user">Mobiltelefon-Nr./Nutzer-ID ist ein Code, den der Portalserver zur Identifizierung der einzelnen Anschlussmodule verwendet.  Bei einer Änderung der Nutzer-ID wird diese auch auf dem Portalserver geändert. Dies führt dazu, dass alle Anschlussmodule mit gleicher Nutzer-ID und Passwort gleichzeitig aktualisiert werden. Bitte beachten Sie, dass eine Änderung dazu führt, dass andere Nutzer erst wieder auf die Anschlussmodule zugreifen können, wenn sie auch die Nutzer-ID beim nächsten Log-in ändern.
+Wenn die Nutzer-ID geändert wurde, sehen die anderen Nutzer ein Warndreieck neben den Anschlussmodulen, auf die sie vorher Zugriff hatten. Beim Versuch, sich einzuloggen, werden sie gebeten, die neue Nutzer-ID und das Passwort einzugeben. Bei mehreren Anschlussmodulen mit gleicher Nutzer-ID und gleichem Passwort erscheint eine Liste, in der man wählen kann, auf welche Anschlussmodule man Zugriff haben möchte. Bestätigen Sie mit "OK".
+</string>
+
+
+    <string name="help_triangle">"Das Warndreieck zeigt an, dass es Probleme mit einem Anschlussmodul oder einem Funkraumbediengerät gibt.
+> Kann keine Verbindung zu einem oder mehreren Raumbediengeräten eingerichtet werden, überprüfen Sie bitte die Batterien in den Geräten, die einen Kommunikationsfehler im Display anzeigen. Siehe hierzu auch die Bedienungsanleitung zur Touchline auf unserer Homepage (http://www.roth werke Link einfügen).
+> Überprüfen Sie, ob das Passwort oder die Nutzer-ID des Anschlussmoduls geändert wurde.
+> Wenn die Verbindung zum Raumbediengerät wiederholt ausfällt, kann es sinnvoll sein, es an einer anderen Stelle zu platzieren, um ein besseres Signal zu bekommen."</string>
+
+
+      <string name="help_password">"Passwort vergessen:
+>Wenn Sie Ihr Passwort vergessen haben, können Sie es sich an die E-Mail-Adresse senden lassen, mit der Sie sich in der App registriert haben. Aus Sicherheitsgründen müssen Sie Ihren Namen und die Nutzer-ID eingeben, um das Passwort zugesandt zu bekommen. Wenn Sie beim ersten Log-in keinen Namen und keine E-Mail-Adresse eingegeben haben, kann Ihnen kein neues Passwort zugesandt werden und Sie müssen sich neu im Anschlussmodul registrieren. Dies geschieht durch Sendung einer E-Mail an "Touchline_PW_reset@Roth-industries.com" mit Angabe der User-ID-Nummer des Anschlussmoduls. Um die User-ID zu finden, müssen Sie sich im gleichen WLAN-Netzwerk wie das Anschlussmodul befinden und sich als "Neuer Nutzer" einloggen. Füllen Sie das Registrierungsformular mit Angabe von Namen, E-Mailadresse und Telefonnummer/Nutzer-ID aus und tippen Sie auf "OK". Wählen Sie das Anschlussmodul aus. Die User-ID-Nummer erscheint daraufhin auf dem nächsten Bildschirm als schattierter Text/Nr. (Beispiel: 51FF6C064965525743540181).                                                                                                                                                                                                              \n Passwort ändern:
+> Nach erfolgreicher Registrierung des Anschlussmoduls mit Namen, E-Mail und Mobiltelefon-Nr./Nutzer-ID, kann das Passwort geändert werden. Hierzu müssen Sie sich einen Reset-Code zusenden lassen, mit dem Sie Ihr altes Passwort für den Portalserver auf den Standardwert zurücksetzen können.
+
+Neuer Reset-Code:
+>Bei Anforderung eines Reset-Codes sendet die App automatisch eine Anfrage an den Portalserver, der einen Code generiert. Dieser wird an die E-Mail-Adresse des Nutzers geschickt. Anschließend muss der Code manuell eingegeben werden.
+Nach Erhalt und Eingabe des Reset-Codes kann ein neues Passwort eingegeben werden. Das Default-Passwort ist immer 1234.
+Wird das Anschlussmodul von mehreren Nutzern verwendet, müssen alle Nutzer beim nächsten Log-in eine Aktualisierung durchführen, indem sie auf das Warndreieck tippen und die neue Nutzer-ID und das neue Passwort eingeben.
+"</string>
+
+
+    <string name="help_controller">"Für eine komfortablere Bedienung, empfehlen wir, Name, E-Mail und Nutzer-ID anzugeben. Dies ist z. B. notwendig in Zusammenhang mit einem Wechsel des Mobiltelefons oder, wenn mehrere Nutzer das gleiche Anschlussmodul verwenden.
+> Die Benennung des Anschlussmoduls ist nur erforderlich zur besseren Übersichtlichkeit, insbesondere wenn mehrere Anlagen/Installationen in der App installiert sind. Es kann jedoch nicht der gleiche Name für mehrere Anschlussmodule verwendet werden. Die Benennung könnte z. B. sein – ”zu Hause”, ”Ferienhaus"
+> Die grafische Oberfläche zeigt die Anzahl der Anschlussmodule, die an die App angeschlossen sind. In diesem Bildschirm sind keine Änderungen möglich.
+"</string>
+
+
+    <string name="help_app">"Sollten Sie Probleme haben, eine Verbindung zum Touchline Anschlussmodul zu bekommen, kann dies folgende Ursache haben:                                                                                                                    > Das Anschlussmodul muss als "Master" eingerichtet sein. Falls die "Master"-LED am Anschlussmodul nicht leuchtet, halten Sie die "Master”-Taste am Anschlussmodul ca. 10 Sekunden gedrückt, bis die Master-LED aufhört zu blinken. Siehe hierzu auch die Bedienungsanleitung zur Touchline auf unserer Homepage (http://www.roth-werke Homepage angeben)
+> Sie befinden sich nicht im gleichen WLAN-Netzwerk wie das Anschlussmodul, zu dem Sie eine Verbindung einrichten möchten."</string>
+
+
+    <array name="help_menu_items">
+        <item>Systemeinstellungen</item>
+        <item>Wahl des Betriebsmodus</item>
+        <item>Name des Anschlussmoduls ändern</item>
+        <item>Liste der Anschlussmodule bearbeiten</item>
+        <item>System Info</item>
+        <item>App-Einstellungen</item>
+        <item>Nutzer-ID ändern</item>
+        <item>Passwort ändern</item>
+        <item>Nutzer Setup</item>
+        <item>Funkraumbediengerät-Einstellungen</item>
+        <item>Raumbediengerätnamen ändern</item>
+        <item>Übersicht Funkraumbediengeräte</item>
+        <item>Hilfe</item>
+        <item>Passwort</item>
+        <item>Anschlussmodul</item>
+        <item>App</item>
+        <item>Nutzer-ID</item>
+        <item>Thermostat</item>
+    </array>
+
+    <string name="title_activity_controller_operating_modes"></string>
+    <string name="title_activity_name_controller">Name des Anschlussmoduls</string>
+    <string name="title_activity_change_user_id">Nutzer-ID ändern</string>
+    <string name="title_activity_user_setup">Nutzer Setup</string>
+    <string name="title_activity_change_thermostat_name">Funkraumbediengerätname ändern</string>
+    <string name="title_activity_thermostat_overview">Übersicht Funkraumbediengeräte</string>
+    <string name="title_activity_thermostat_overview_advanced"></string>
+
+    <string name="title_activity_controller_info">System Info</string>
+    <string name="title_activity_user_login">Nutzer Login</string>
+    <string name="title_activity_change_password">Passwort ändern</string>
+    <string name="title_activity_no_wlan">Kein WLAN</string>
+    <string name="title_activity_no_internet">Keine Internetverbindung</string>
+    <string name="title_activity_non_existing_user_id">Anschlussmodul</string>
+    <string name="title_activity_controller_already_registred">Anschlussmodul</string>
+    <string name="title_activity_password_sent_email"></string>
+    <string name="title_activity_reset_sent_email">" "</string>
+    <string name="title_activity_enter_reset_code">" "</string>
+    <string name="title_activity_change_default_password">" "</string>
+    <string name="title_activity_wrong_pass">""</string>
+    <string name="touchline">Touchline</string>
+    <string name="name">Name:</string>
+    <string name="error">Mögliche Ursachen für Fehlermeldungen.</string>
+    <string name="ok">OK</string>
+    <string name="send_reset_code">Reset-Code senden</string>
+    <string name="help_thermostats">Hilfemenü Thermostate</string>
+    <string name="help_triangle_top">Hilfe bei Verbindungsproblemen</string>
+    <string name="help_ID">Hilfe zur Nutzer-ID</string>
+    <string name="usid">Nutzer-ID</string>
+    <string name="email">E-Mail:</string>
+    <string name="extra1">Der per E-Mail zugesandte Reset-Code muss in das obenstehende Feld eingegeben werden. Bitte beachten Sie, dass alles mit Großbuchstaben geschrieben werden muss.</string>
+    <string name="help_app_top">Hilfe zur App</string>
+    <string name="help_control">Hilfe zum Anschlussmodul</string>
+    <string name="help_pass">Hilfe zum Passwort</string>
+    <string name="new_user">Neuer Nutzer</string>
+    <string name="name_unit">Anschlussmodul\n benennen</string>
+    <string name="controller_registred">Das Anschlussmodul ist bereits registriert</string>
+    <string name="no_inet">Keine Internetverbindung</string>
+    <string name="no_wlan">Keine WLAN-Verbindung \n\n\n Errichten Sie eine Verbindung zum gleichen WLAN, in dem sich das Anschlussmodul befindet, um eine neue Registrierung vorzunehmen. </string>
+    <string name="no_uid">Nutzer-ID gibt es nicht</string>
+    <string name="reset_email">Der Reset-Code wird an Ihre E-Mail-Adresse gesendet.</string>
+    <string name="incorrect_pass">Falsches Passwort</string>
+    <string name="existing_uid">Bestehender Nutzer</string>
+    <string name="pass_sent_email">Das Passwort wird an Ihre E-Mail-Adresse gesendet.</string>
+    <string name="old_uid">Alte\n Nutzer-ID</string>
+    <string name="name_controller">Name des\n Anschlussmoduls</string>
+    <string name="lang">Sprache</string>
+    <string name="mobile_no">Mobiltelefon-Nr./ User ID.</string>
+    <string name="default_pass">Default\n Passwort</string>
+    <string name="enter_reset">Reset-Code\n eingeben</string>
+    <string name="pass">Passwort</string>
+    <string name="back">Zurück</string>
+    <string name="change_mode">Wahl des Betriebsmodus</string>
+    <string name="old_pass">Altes\n Passwort</string>
+    <string name="help_text">Hilfetext</string>
+    <string name="save_pass">Passwort speichern</string>
+    <string name="default_pass_enter">Default Passwort eingeben: 1234</string>
+    <string name="new_uid">Neue Nutzer\n ID</string>
+    <string name="confirm_pass">Passwort\n wiederholen</string>
+    <string name="new_pass">Neues\n Passwort</string>
+    <string name="remember_pass">Passwort speichern</string>
+    <string name="ready_connect">" - Verbindungsbereit"</string>
+    <string name="loading">Bitte warten...</string>
+
+    <string name="roomname">Raumname:</string>
+    <string name="login">Einloggen</string>
+    <string name="edit_controller_list">Liste der Anschlussmodule bearbeiten</string>
+
+</resources>
