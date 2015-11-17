@@ -136,10 +136,9 @@
                 android:src="@mipmap/holiday"
                 android:scaleType="fitCenter"
                 android:onClick="mode_1_option_3_pressed"
-                android:layout_centerVertical="true"
+                android:layout_above="@+id/imageButton9"
                 android:layout_alignRight="@+id/agg"
-                android:layout_alignEnd="@+id/agg"
-                android:layout_alignTop="@+id/imageButton6" />
+                android:layout_alignEnd="@+id/agg" />
 
             <ImageButton
                 android:layout_width="80dp"

@@ -142,4 +142,6 @@ If the connection module is used by several users, they will all need to update 
     <string name="login">Log in</string>
     <string name="edit_controller_list">Edit list of connection modules</string>
 
+    <string name="user_id_registred">User ID already registred</string>
+    <string name="forgot_password">Forgotten Password</string>
 </resources>

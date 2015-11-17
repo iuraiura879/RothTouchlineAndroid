@@ -18,7 +18,7 @@
     android:layout_width="match_parent"
     android:orientation="horizontal"
     android:weightSum="1"
-    android:id="@+id/top_list"
+    android:id="@+id/lay"
     android:background="#00ffffff">
 
 
@@ -27,11 +27,11 @@
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight=".25"
-        android:focusable="true"
-        android:clickable="true"
         android:layout_marginRight="20dp"
         android:paddingLeft="10dp"
-        android:onClick="openControllerProgram">
+        android:id="@+id/lay_mode"
+
+        >
 
         <ImageView
             android:layout_width="0dp"
@@ -56,9 +56,9 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="0dp"
-        android:focusable="true"
-        android:clickable="true"
-        android:onClick="openControllerThermostatList"
+        android:id="@+id/lay_name"
+
+
         android:layout_height="match_parent"
         android:layout_weight=".75" >
 

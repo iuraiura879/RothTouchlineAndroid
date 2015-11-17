@@ -433,6 +433,12 @@ public class ThermostatOverviewMainMenu extends AppCompatActivity {
 
         thermostatListView.setMDragEnabled( sortingEnabled );
 
+
+
+
+
+
+
     }
 
     public void onHomePressed( View v ){

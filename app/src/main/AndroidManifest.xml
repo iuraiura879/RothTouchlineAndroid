@@ -103,6 +103,11 @@
             android:label="@string/title_activity_no_internet" >
         </activity>
         <activity
+            android:name="com.roth.touchline.ExistingUserID"
+            android:label="" >
+        </activity>
+
+        <activity
             android:name="com.roth.touchline.WrongPass"
             android:label="@string/title_activity_wrong_pass" >
         </activity>

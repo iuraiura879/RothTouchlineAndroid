@@ -140,4 +140,10 @@ Man skal være opmærksom på at hvis der er flere brugere på kontrolenheden, s
     <string name="roomname">Rum\nnavn:</string>
     <string name="login">Log ind</string>
     <string name="edit_controller_list">Rediger liste af kontrolenheder</string>
+
+
+    <string name="user_id_registred">Bruger ID er optaget</string>
+    <string name="forgot_password">Glemt password</string>
+
+
 </resources>
