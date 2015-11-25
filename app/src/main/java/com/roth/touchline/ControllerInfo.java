@@ -26,6 +26,8 @@ public class ControllerInfo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_controller_info);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         ListView controllerListView=(ListView)findViewById(R.id.listView);
         controllerList = new ArrayList<Controller>();
 
@@ -55,9 +57,16 @@ public class ControllerInfo extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
 
+            case android.R.id.home:
+                onBackPressed();
+
+                return true;
+        }
         return super.onOptionsItemSelected(item);
     }
+
 
 
     public void onOkPressed( View v ){

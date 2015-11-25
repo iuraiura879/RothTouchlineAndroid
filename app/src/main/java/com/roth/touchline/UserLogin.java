@@ -18,6 +18,8 @@ public class UserLogin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_login);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         EditText editText = (EditText) findViewById(R.id.editText);
         editText.setFilters(new InputFilter[]{new NoSpecialInputFilter() ,new InputFilter.LengthFilter(10)});
 
@@ -35,9 +37,16 @@ public class UserLogin extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
 
+            case android.R.id.home:
+                onBackPressed();
+
+                return true;
+        }
         return super.onOptionsItemSelected(item);
     }
+
 
 
     public void okUserLoginPressed ( View view ){

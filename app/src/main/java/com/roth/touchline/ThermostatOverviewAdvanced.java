@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
@@ -178,6 +179,7 @@ public class ThermostatOverviewAdvanced extends AppCompatActivity {
 
     public void onOkPressed( View v ){
 
+        user.findControllerByID(ID).findThermostatByID(thermostatID).setName(((EditText)findViewById(R.id.textView23)).getText().toString());
         user.findControllerByID(ID).findThermostatByID(thermostatID).setOperatingTemperature(temp);
         user.findControllerByID(ID).findThermostatByID(thermostatID).setMode(mode1);
         user.findControllerByID(ID).findThermostatByID(thermostatID).setModeSecondary(mode2);

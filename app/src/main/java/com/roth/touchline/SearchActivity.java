@@ -14,6 +14,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.Transformation;
+import android.webkit.WebView;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -22,16 +23,20 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListAdapter;
 import android.widget.ListView;
+import android.widget.MediaController;
 import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import pl.droidsonroids.gif.GifDrawable;
+import pl.droidsonroids.gif.GifImageView;
+
 public class SearchActivity extends AppCompatActivity {
 
     private int touchPositionX;
 
-    int mode = 0;
+    int mode = 1;
 
     List<Controller> controllerList;
     AllControllers allControllers;
@@ -40,6 +45,8 @@ public class SearchActivity extends AppCompatActivity {
     boolean sortingEnabled = false;
 
     ControllerListAdapter arrayAdapter;
+
+    WebView loading;
 
     User user;
 
@@ -59,6 +66,12 @@ public class SearchActivity extends AppCompatActivity {
         arrayAdapter = new ControllerListAdapter(this, R.layout.found_new_controller, controllerList);
         controllerListView.setAdapter(arrayAdapter);
 
+        loading = ((WebView) findViewById(R.id.loading_section));
+
+        loading.setBackgroundColor(Color.TRANSPARENT); //for gif without background
+        loading.loadUrl("file:///android_asset/index.html");
+
+        //loading.setVisibility(View.GONE);
 
         if( mode == 1){
 

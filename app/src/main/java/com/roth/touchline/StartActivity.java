@@ -509,6 +509,7 @@ public class StartActivity extends AppCompatActivity {
 
         Intent intent = new Intent(getApplicationContext(), HelpActivity.class);
         intent.putExtra( HelpActivity.intentChoiceName,  0 );
+        intent.putExtra( HelpActivity.intentGoHome,  0 );
         startActivity(intent);
     }
 

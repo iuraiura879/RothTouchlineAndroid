@@ -1,6 +1,7 @@
 package com.roth.touchline;
 
 import android.content.Intent;
+import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -9,13 +10,19 @@ import android.view.View;
 
 public class HelpActivity extends AppCompatActivity {
 
+    int goHome = 1;
+
     public static final String intentChoiceName = "helpChoice";
+    public static final String intentGoHome = "intentGoHome";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         Intent intent = getIntent();
         int help_menu = intent.getIntExtra(intentChoiceName, 0);
+        goHome = intent.getIntExtra(intentGoHome, 1);
 
         switch ( help_menu ){
             case 0:
@@ -57,13 +64,33 @@ public class HelpActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
 
+            case android.R.id.home:
+                onBackPressed();
+
+                return true;
+        }
         return super.onOptionsItemSelected(item);
     }
 
 
     public void onHomePressed( View v ){
 
-        onBackPressed();
+        if( goHome == 0 ){
+
+            onBackPressed();
+
+        }else{
+
+            Intent intent = new Intent(getApplicationContext(), SearchActivity.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);         //intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
+            startActivity(intent);
+
+
+        }
+
     }
+
+
 }

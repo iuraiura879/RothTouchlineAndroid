@@ -23,6 +23,8 @@ public class ControllerOperatingModes extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_controller_operating_modes);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         ID = getIntent().getIntExtra(SearchActivity.CONROLLER_ID_SENT , -1 );
         if( ID >= 0){
 
@@ -78,6 +80,7 @@ public class ControllerOperatingModes extends AppCompatActivity {
 
         mode = 0;
         setMode(mode);
+        onOkPressed(null);
 
     }
 
@@ -85,6 +88,7 @@ public class ControllerOperatingModes extends AppCompatActivity {
 
         mode = 1;
         setMode(mode);
+        onOkPressed(null);
 
     }
 
@@ -92,6 +96,7 @@ public class ControllerOperatingModes extends AppCompatActivity {
 
         mode = 2;
         setMode(mode);
+        onOkPressed(null);
 
     }
 

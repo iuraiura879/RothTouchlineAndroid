@@ -29,6 +29,8 @@ public class ChangeThermostatName extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_change_thermostat_name);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         thermostatListView=(ListView)findViewById(R.id.listView);
         thermostatList = new ArrayList<Thermostat>();
 
@@ -57,9 +59,16 @@ public class ChangeThermostatName extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
 
+            case android.R.id.home:
+                onBackPressed();
+
+                return true;
+        }
         return super.onOptionsItemSelected(item);
     }
+
 
 
     public void onOkPressed( View v ){

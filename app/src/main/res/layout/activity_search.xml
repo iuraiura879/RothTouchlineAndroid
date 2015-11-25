@@ -79,5 +79,13 @@
             android:divider="#00FFFFFF"/>
 
 
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="20px"
+
+            android:id="@+id/loading_section"
+
+            />
+
     </RelativeLayout>
 

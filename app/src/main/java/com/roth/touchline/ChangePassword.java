@@ -18,6 +18,8 @@ public class ChangePassword extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_change_password);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         ID = getIntent().getIntExtra(SearchActivity.CONROLLER_ID_SENT , -1 );
         if( ID >= 0){
 
@@ -37,10 +39,16 @@ public class ChangePassword extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
 
+            case android.R.id.home:
+                onBackPressed();
+
+                return true;
+        }
         return super.onOptionsItemSelected(item);
-
     }
+
 
     public void onOkPressed( View v ){
 

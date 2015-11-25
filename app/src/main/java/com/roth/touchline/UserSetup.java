@@ -17,7 +17,7 @@ public class UserSetup extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_setup);
 
-
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         EditText editText = (EditText) findViewById(R.id.editText3);
 
@@ -39,9 +39,16 @@ public class UserSetup extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
 
+            case android.R.id.home:
+                onBackPressed();
+
+                return true;
+        }
         return super.onOptionsItemSelected(item);
     }
+
 
     public void onOkPressed( View v ){
 

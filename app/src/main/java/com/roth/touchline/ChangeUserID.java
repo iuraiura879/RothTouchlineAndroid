@@ -19,6 +19,8 @@ public class ChangeUserID extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_change_user_id);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         EditText editText = (EditText) findViewById(R.id.editText);
         editText.setFilters(new InputFilter[]{new NoSpecialInputFilter(), new InputFilter.LengthFilter(10)});
 
@@ -39,9 +41,16 @@ public class ChangeUserID extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
 
+            case android.R.id.home:
+                onBackPressed();
+
+                return true;
+        }
         return super.onOptionsItemSelected(item);
     }
+
 
 
 

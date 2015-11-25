@@ -58,19 +58,6 @@
         android:background="#CBC9C9"
         android:id="@+id/linearLayout2"></LinearLayout>
 
-    <Button
-        android:layout_width="150dp"
-        android:layout_height="40dp"
-        android:text="@string/ok"
-        android:id="@+id/button5"
-        android:layout_above="@+id/linearLayout2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="24dp"
-        android:background="@drawable/red_button_custom"
-        android:textColor="#fff"
-        android:textAllCaps="false"
-        android:onClick="onOkPressed" />
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

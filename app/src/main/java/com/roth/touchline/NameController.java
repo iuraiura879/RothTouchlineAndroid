@@ -22,6 +22,8 @@ public class NameController extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_name_controller);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         EditText editText = (EditText) findViewById(R.id.editText);
         editText.setFilters(new InputFilter[]{new NoSpecialInputFilter(), new InputFilter.LengthFilter(10)});
 

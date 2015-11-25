@@ -35,6 +35,7 @@ public class ThermostatOverview extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_thermostat_overview);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         controllerListView=(TouchInterceptor)findViewById(R.id.listView);
         controllerList = new ArrayList<Thermostat>();
@@ -112,9 +113,16 @@ public class ThermostatOverview extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
 
+            case android.R.id.home:
+                onBackPressed();
+
+                return true;
+        }
         return super.onOptionsItemSelected(item);
     }
+
 
 
 

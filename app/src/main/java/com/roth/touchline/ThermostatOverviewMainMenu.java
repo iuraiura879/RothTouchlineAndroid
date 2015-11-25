@@ -3,9 +3,11 @@ package com.roth.touchline;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -51,7 +53,7 @@ public class ThermostatOverviewMainMenu extends AppCompatActivity {
         setContentView(R.layout.activity_thermostat_overview_main_menu);
 
 
-        ID = getIntent().getIntExtra(SearchActivity.CONROLLER_ID_SENT , -1 );
+        ID = getIntent().getIntExtra(SearchActivity.CONROLLER_ID_SENT, -1);
         if( ID >= 0){
 
             user = User.readFromFile(this);
@@ -92,7 +94,7 @@ public class ThermostatOverviewMainMenu extends AppCompatActivity {
                 TextView textView = ((TextView) v.findViewById(R.id.text1));
                 textView.setText(getItem(position));
 
-                if (position == 0 || position == 5 || position == 9 || position == 12){
+                if (position == 0 || position == 5 || position == 9 || position == 12) {
 
                     int bottom = textView.getPaddingBottom();
                     int top = textView.getPaddingTop();
@@ -133,11 +135,11 @@ public class ThermostatOverviewMainMenu extends AppCompatActivity {
 
             public void onStartDrag(View itemView) {
 
-                if(itemView == null)
+                if (itemView == null)
                     return;
                 itemView.setVisibility(View.INVISIBLE);
 
-                LinearLayout iv = (LinearLayout)itemView.findViewById(R.id.lay);
+                LinearLayout iv = (LinearLayout) itemView.findViewById(R.id.lay);
 
                 if (iv != null)
                     iv.setVisibility(View.INVISIBLE);
@@ -146,12 +148,12 @@ public class ThermostatOverviewMainMenu extends AppCompatActivity {
 
             public void onStopDrag(View itemView) {
 
-                if(itemView == null)
+                if (itemView == null)
                     return;
 
                 itemView.setVisibility(View.VISIBLE);
 
-                LinearLayout iv = (LinearLayout)itemView.findViewById(R.id.lay);
+                LinearLayout iv = (LinearLayout) itemView.findViewById(R.id.lay);
 
                 if (iv != null)
                     iv.setVisibility(View.VISIBLE);
@@ -167,9 +169,9 @@ public class ThermostatOverviewMainMenu extends AppCompatActivity {
 
                 ListAdapter adapter = arrayAdapter;
                 if (adapter instanceof ThermostatOverviewListAdapter) {
-                    ((ThermostatOverviewListAdapter)adapter).onDrop(from, to);
+                    ((ThermostatOverviewListAdapter) adapter).onDrop(from, to);
                     thermostatListView.invalidateViews();
-                    ((ThermostatOverviewListAdapter)adapter).notifyDataSetChanged();
+                    ((ThermostatOverviewListAdapter) adapter).notifyDataSetChanged();
                 }
 
             }
@@ -180,12 +182,25 @@ public class ThermostatOverviewMainMenu extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
                 Intent intent = new Intent(getApplicationContext(), ThermostatOverviewAdvanced.class);
-                intent.putExtra(SearchActivity.CONROLLER_ID_SENT, ( ID ));
-                intent.putExtra(ThermostatOverviewMainMenu.THERMOSTAT_ID_SENT, (((ThermostatOverviewListAdapter) arg0.getAdapter()).getItem(position).getID()) );
+                intent.putExtra(SearchActivity.CONROLLER_ID_SENT, (ID));
+                intent.putExtra(ThermostatOverviewMainMenu.THERMOSTAT_ID_SENT, (((ThermostatOverviewListAdapter) arg0.getAdapter()).getItem(position).getID()));
                 startActivity(intent);
 
             }
         });
+
+
+
+        mDrawerLayout.openDrawer(Gravity.LEFT);
+
+        final Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                mDrawerLayout.closeDrawer(Gravity.LEFT);
+            }
+        }, 1000);
+
 
     }
 
@@ -345,6 +360,7 @@ public class ThermostatOverviewMainMenu extends AppCompatActivity {
                 case 13:
 
                     intent.putExtra( HelpActivity.intentChoiceName,  2 );
+
                     startActivity(intent);
 
                     break;

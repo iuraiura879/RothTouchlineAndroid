@@ -33,6 +33,8 @@ public class ChangeControllerList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_change_controller_list);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         if( getIntent().getBooleanExtra(StartActivity.NO_BACK,false) ){
             if(getSupportActionBar() != null){
 
