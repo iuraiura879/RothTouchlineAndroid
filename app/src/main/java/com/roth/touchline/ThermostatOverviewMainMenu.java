@@ -2,6 +2,7 @@ package com.roth.touchline;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.widget.DrawerLayout;
@@ -96,11 +97,17 @@ public class ThermostatOverviewMainMenu extends AppCompatActivity {
 
                 if (position == 0 || position == 5 || position == 9 || position == 12) {
 
+                    v = vi.inflate(R.layout.drawer_list_item_headline, parent, false);
+
+                    textView = ((TextView) v.findViewById(R.id.text1));
+                    textView.setText(getItem(position));
+
                     int bottom = textView.getPaddingBottom();
                     int top = textView.getPaddingTop();
                     int right = textView.getPaddingRight();
                     int left = textView.getPaddingLeft();
                     textView.setBackgroundResource(R.drawable.bg_listview);
+                    textView.setTextColor(Color.WHITE);
                     textView.setPadding(left, top, right, bottom);
 
                 }
