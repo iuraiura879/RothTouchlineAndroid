@@ -6,12 +6,14 @@
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".IntroActivity"
     android:background="#fff">
 
-    <TextView
+    <ImageView
         android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:text="@string/touchline"
         android:id="@+id/Touchline"
         android:textSize="35sp"
+        android:src="@mipmap/touchline"
+        android:adjustViewBounds="true"
         android:textColor="#000"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
